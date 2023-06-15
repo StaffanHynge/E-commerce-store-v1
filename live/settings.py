@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'home',
     'events',
 
+
     'crispy_forms',
     'crispy_bootstrap5',
     'djrichtextfield'

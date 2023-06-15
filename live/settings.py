@@ -45,6 +45,10 @@ INSTALLED_APPS = [
 
     'home',
     'events',
+
+    'crispy_forms',
+    'crispy_bootstrap5',
+    'djrichtextfield'
 ]
 
 MIDDLEWARE = [
@@ -58,6 +62,9 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'live.urls'
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap5'
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
 
 TEMPLATES = [
     {
@@ -74,6 +81,10 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+            'builtins': [
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field'
+            ]
         },
     },
 ]
@@ -87,6 +98,19 @@ AUTHENTICATION_BACKENDS = (
 )
 
 SITE_ID = 1
+
+DJRICHTEXTFIELD_CONFIG = {
+    'js': ['//cdn.ckeditor.com/4.14.0/standard/ckeditor.js'],
+    'init_template': 'djrichtextfield/init/ckeditor.js',
+    'settings': {
+        'toolbar': [
+            ['Format', 'Bold', 'Italic', 'Underline'],
+            ['NumberedList', 'BulletedList'], ['Undo', 'Redo'],
+            ['Maximize']
+        ],
+        'format_tags': 'p;h1;h2;h3'
+    }
+}
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 

@@ -20,8 +20,8 @@
     <a href="#" class="btn btn-primary">Buy Tickets</a>
     {% if request.user == event.user %}
     <div class="text-center">
-        <a href="#" class="btn btn-primary w-25">Edit</a>
-        <a href="#" class="btn btn-primary w-25">Delete</a>
+        <a href="{% url 'edit_event' event.id %}" class="btn btn-primary w-25">Edit</a>
+        <a href="{% url 'delete_event' event.id %}" class="btn btn-primary w-25">Delete</a>
     </div>
     {% endif %}
 </div>

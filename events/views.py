@@ -1,6 +1,12 @@
 from django.shortcuts import render
-from django.views.generic import CreateView, ListView, DetailView
-from django.contrib.auth.mixins import LoginRequiredMixin
+from django.views.generic import (
+    CreateView,
+    ListView,
+    DetailView,
+    DeleteView,
+    UpdateView,
+)
+from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
 
 from .models import Events
 from .forms import EventForm
@@ -20,13 +26,31 @@ class EventDetail(DetailView):
     context_object_name = 'event'
 
 
-
 class AddEvent(LoginRequiredMixin, CreateView):
     template_name = 'events/add_event.html'
     model = Events
     form_class = EventForm
-    success_url = '/events/'
+    success_url = '/events/eventlist/'
 
     def form_valid(self, form):
         form.instance.user = self.request.user
         return super(AddEvent, self).form_valid(form)
+
+
+class EditEvent(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
+    template_name = 'events/edit_event.html'
+    model = Events
+    form_class = EventForm
+    success_url = '/events/eventlist/'
+
+    def test_func(self):
+        return self.request.user == self.get_object().user
+
+
+class DeleteEvent(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
+    """Delete an Event"""
+    model = Events
+    success_url = '/events/eventlist/'
+
+    def test_func(self):
+        return self.request.user == self.get_object().user

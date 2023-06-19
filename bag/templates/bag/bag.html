@@ -22,7 +22,94 @@
         <div class="col">
             {% if bag_items %}
             <div class="table-responsive rounded">
-                {{ bag_items }}
+                <table class="table table-sm table-borderless">
+                    <thead class="text-black">
+                        <tr>
+                            <th scope="col">Event Info</th>
+                            <th scope="col"></th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    {% for item in bag_items %}
+                    <tr>
+                        <td class="p-3 w-25">
+                            <img class="img-fluid rounded" src="{{ item.event.image.url }}" alt="">
+                        </td>
+                        <td class="py-3">
+                            <p class="my-0"><strong>{{ item.event.name }}</strong></p>
+                            <p class="my-0">{{ item.event.date }}</p>
+                            <p class="my-0">{{ item.event.time }}</p>
+                        </td>
+                        <td class="py-3">
+                            <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
+                                {% csrf_token %}
+                                <div class="form-row">
+                                    <div class="col-12">
+
+                                        <div class="form-group">
+                                            <a class="update-link text-info btn btn-black rounded-0 btn-lg">
+                                                <span class="text-uppercase">Update</span>
+                                            </a>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <button class="decrement-qty btn btn-sm btn-black rounded-0"
+                                                        data-item_id="{{ item.item_id }}"
+                                                        id="decrement-qty_{{ item.item_id }}">
+                                                        <span>
+                                                            <i class="fas fa-minus fa-sm"></i>
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                                <input class="form-control form-control-sm qty_input" type="number"
+                                                    name="quantity" value="{{ item.quantity }}" min="1" max="99"
+                                                    data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
+                                                <div class="input-group-append">
+                                                    <button class="increment-qty btn btn-sm btn-black rounded-0"
+                                                        data-item_id="{{ item.item_id }}"
+                                                        id="increment-qty_{{ item.item_id }}">
+                                                        <span>
+                                                            <i class="fas fa-plus fa-sm"></i>
+                                                        </span>
+                                                    </button>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <a class="remove-item text-danger btn btn-black rounded-0 btn-lg"
+                                        id="remove_{{ item.item_id }}">
+                                        <span class="text-uppercase">Delete</span>
+                                    </a>
+
+                            </form>
+
+                        </td>
+                        <td class="py-3">
+                            <p class="my-0">${{ item.event.price }}</p>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                    <tr>
+                        <td colspan="5" class="text-right">
+                            <a href="{% url 'event_list' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                                <span class="icon">
+                                    <i class="fas fa-chevron-left"></i>
+                                </span>
+                                <span class="text-uppercase">Keep Shopping</span>
+
+
+                                <a href="" class="btn btn-black rounded-0 btn-lg">
+                                    <span class="text-uppercase">Secure Checkout</span>
+                                    <span class="icon">
+                                        <i class="fas fa-lock"></i>
+                                    </span>
+                                </a>
+                        </td>
+                    </tr>
+                </table>
             </div>
             {% else %}
             <p class="lead mb-5">Your bag is empty.</p>
@@ -36,4 +123,29 @@
         </div>
     </div>
 </div>
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+{% include 'events/includes/quantity_input_script.html' %}
+<script type="text/javascript">
+
+    // Update quantity on click
+    $('.update-link').click(function (e) {
+        var form = $(this).prev('.update-form');
+        form.submit();
+    });
+
+    $('.remove-item').click(function (e) {
+        var csrfToken = "{{ csrf_token }}";
+        var itemId = $(this).attr('id').split('remove_')[1];
+        var url = 'bag/remove/$(itemId)';
+        var data = { 'csrfmiddlewaretoken': csrfToken };
+
+        $.post(url, data)
+            .done(function () {
+                location.reload();
+            });
+    })
+</script>
 {% endblock %}

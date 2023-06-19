@@ -1,8 +1,26 @@
-def bag_contents(request):
+from django.conf import settings
+from django.shortcuts import get_object_or_404
+from events.models import Events
 
+
+def bag_contents(request):
+    """
+    Retrieve the user's bag items from the session.
+    """
     bag_items = []
     total = 0
     product_count = 0
+    bag = request.session.get('bag', {})
+
+    for item_id, quantity in bag.items():
+        event = get_object_or_404(Events, pk=item_id)
+        total += quantity * event.price
+        product_count += quantity
+        bag_items.append({
+            'item_id': item_id,
+            'quantity': quantity,
+            'event': event
+        })
 
     context = {
         'bag_items': bag_items,

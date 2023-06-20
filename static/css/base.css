@@ -2,3 +2,10 @@
 .remove-item {
     cursor: pointer;
 }
+
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 25px;
+    z-index: 9999999;
+}

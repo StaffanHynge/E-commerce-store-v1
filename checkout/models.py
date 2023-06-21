@@ -13,7 +13,8 @@ class Order(models.Model):
     email = models.EmailField(max_length=65, null=False, blank=False)
     phone_number = models.CharField(max_length=20, null=False, blank=False)
     date_now = models.DateTimeField(auto_now_add=True)
-    order_total = models.DecimalField(max_digits=10, decimal_places=2, null=False, default=0)
+    order_total = models.DecimalField(
+        max_digits=10, decimal_places=2, null=False, default=0)
 
     def generate_order_number():
         return uuid.uuid4().hex.upper()
@@ -22,17 +23,15 @@ class Order(models.Model):
         self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))[
             'lineitem_total__sum']
         self.save()
- 
-    def save(self, *args, **kwargs): 
+
+    def save(self, *args, **kwargs):
 
         if not self.order_number:
             self.order_number = self.generate_order_number()
             super().save(*args, **kwargs)
 
-     def __str__(self):
+    def __str__(self):
         return self.order_number
-
-
 
 
 class OrderItem(models.Model):

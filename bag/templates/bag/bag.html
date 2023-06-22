@@ -41,6 +41,7 @@
                             <p class="my-0"><strong>{{ item.event.name }}</strong></p>
                             <p class="my-0">{{ item.event.date }}</p>
                             <p class="my-0">{{ item.event.time }}</p>
+                            <p class="my-0">{{ item.event.location }}</p>
                         </td>
                         <td class="py-3">
                             <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
@@ -49,9 +50,6 @@
                                     <div class="col-12">
 
                                         <div class="form-group">
-                                            <a class="update-link text-info btn btn-black rounded-0 btn-lg">
-                                                <span class="text-uppercase">Update</span>
-                                            </a>
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
                                                     <button class="decrement-qty btn btn-sm btn-black rounded-0"

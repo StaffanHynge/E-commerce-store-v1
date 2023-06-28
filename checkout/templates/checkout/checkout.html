@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 {% comment %} {% load crispy_forms_tags %} {% endcomment %}
 
 {% block page_header %}
@@ -58,7 +59,7 @@
             <p class="my-0">{{ item.event.date }}</p>
             <p class="my-0">{{ item.event.time }}</p>
             <p class="my-0">${{ item.event.price }}</p>
-            <p class="my-0">{{ item.event.quantity }}</p>
+            <p class="my-0">{{ total }}</p>
         </td>
         </td>
     </tr>
@@ -119,6 +120,8 @@
         ev.preventDefault();
         card.update({ 'disabled': true });
         $('#submit-button').attr('disabled', true);
+        $('#payment-form').fadeToggle(100);
+
         stripe.confirmCardPayment(clientSecret, {
             payment_method: {
                 card: card,
@@ -132,6 +135,7 @@
                 </span>
                 <span>${result.error.message}</span>`;
                 $(errorDiv).html(html);
+                $('#payment-form').fadeToggle(100);
                 card.update({ 'disabled': false });
                 $('#submit-button').attr('disabled', false);
             } else {

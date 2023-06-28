@@ -1,4 +1,7 @@
-from django.http import HttpResponseRedirect
+from django.utils.html import strip_tags
+from django.template.loader import render_to_string
+from django.core.mail import send_mail
+from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.conf import settings
@@ -8,6 +11,7 @@ from .forms import OrderForm
 from events.models import Events
 from .models import Order, OrderItem
 import stripe
+import csv
 
 # Create your views here.
 
@@ -17,7 +21,6 @@ def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
     intent = None
-# Nytt härifrån
     if request.method == "POST":
         bag = request.session.get('bag', {})
 
@@ -82,6 +85,37 @@ def checkout(request):
     return render(request, template, context)
 
 
+def download_order(request, order_number):
+    order = get_object_or_404(Order, order_number=order_number)
+
+    # Create a response object with CSV mimetype
+    response = HttpResponse(content_type='text/csv')
+    response['Content-Disposition'] = f'attachment; filename=order_{order.order_number}.csv'
+
+    # Create a CSV writer object and write the header row
+    writer = csv.writer(response)
+    writer.writerow(['Name', 'Quantity', 'Price', 'Total',
+                    'Date', 'Time', 'Location', 'Image'])
+
+    # Write each line item as a row in the CSV
+    for line_item in order.lineitems.all():
+        writer.writerow([
+            line_item.event.name,
+            line_item.quantity,
+            line_item.event.price,
+            line_item.lineitem_total,
+            line_item.event.date,
+            line_item.event.time,
+            line_item.event.location,
+            request.build_absolute_uri(
+                line_item.event.image.url) if line_item.event.image
+            else '',
+        ])
+
+    # Return the response with the CSV file
+    return response
+
+
 def checkout_success(request, order_number):
 
     save_info = request.session.get('save_info')
@@ -93,6 +127,7 @@ def checkout_success(request, order_number):
 
     template = 'checkout/checkout_success.html'
     context = {
-        'order': order
+        'order': order,
+        'download_url': reverse('download_order', args=[order_number])
     }
     return render(request, template, context)

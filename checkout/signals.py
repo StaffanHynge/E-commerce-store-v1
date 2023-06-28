@@ -4,10 +4,10 @@ from .models import OrderItem
 
 
 @receiver(post_save, sender=OrderItem)
-def update_to_save(sender, instance, created, **kwargs):
+def update_on_save(sender, instance, created, **kwargs):
     instance.order.update_total()
 
 
 @receiver(post_delete, sender=OrderItem)
-def update_to_save(sender, instance, **kwargs):
+def update_on_delete(sender, instance, **kwargs):
     instance.order.update_total()

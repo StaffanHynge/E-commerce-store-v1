@@ -24,7 +24,7 @@
                 </a>
                 {% if request.user.is_authenticated %}
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Profile</a>
+                    <a class="dropdown-item" href="{% url 'member' %}">Profile</a>
                     <a class="dropdown-item {% if url_name == 'account_logout' %}active{% endif %}"
                         href="/accounts/logout/">Logout</a>
                     <a class="dropdown-item{% if url_name == 'add_event' %}active{% endif %}"

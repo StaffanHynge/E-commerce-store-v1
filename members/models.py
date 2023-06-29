@@ -8,9 +8,12 @@ from django.dispatch import receiver
 '''
 A members model to maintain information and the members orderhistory
 '''
-class UserProfile(models.Model): 
+
+
+class UserProfile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    default_phonenumber = models.CharField(max_length=20, null=True, blank=True)
+    default_phonenumber = models.CharField(
+        max_length=20, null=True, blank=True)
     default_email = models.CharField(max_length=250, null=True, blank=True)
     date_of_birth = models.DateField(null=True)
     billing_adress = models.CharField(max_length=100, null=True, blank=True)
@@ -24,15 +27,16 @@ class UserProfile(models.Model):
         null=True,
     )
 
-    def __str__(self): 
+    def __str__(self):
         return self.user.username
 
+
 @receiver(post_save, sender=User)
-def create_or_update_user_profile(sender, instance, created, **kwargs): 
+def create_or_update_user_profile(sender, instance, created, **kwargs):
     '''
     Create or update the user
     '''
-    if created: 
+    if created:
         UserProfile.objects.create(user=instance)
-        # Existing users just save the profile
-        instance.userprofile.save()
+    # Existing users just save the profile
+    instance.user_profile.save()

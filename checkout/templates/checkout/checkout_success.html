@@ -18,12 +18,13 @@
             <hr>
             <p>Your order information is below. A confirmation email will be sent to {{ order.email }}</p>
             <a href="{{ download_url }}">Download Your Tickets</a>
+            <a href="{% url 'order_history' %}" class="btn">Order History</a>
         </div>
     </div>
 
     <div class="row">
         <div class="col-12 col-lg-7">
-            <a href="{% url 'event_list' %}" class="btn"></a>
+            <a href="{% url 'event_list' %}" class="btn">More Events</a>
         </div>
     </div>
 </div>

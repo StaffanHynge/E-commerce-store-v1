@@ -5,6 +5,7 @@ from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.conf import settings
+from django.contrib.auth.decorators import login_required
 
 from bag.contexts import bag_contents
 from .forms import OrderForm
@@ -131,3 +132,11 @@ def checkout_success(request, order_number):
         'download_url': reverse('download_order', args=[order_number])
     }
     return render(request, template, context)
+
+
+@login_required
+def order_history(request):
+    orders = Order.objects.filter(
+        email=request.user.email).order_by('-date_now')
+    template = 'checkout/order_history.html'
+    return render(request, template, {'orders': orders})

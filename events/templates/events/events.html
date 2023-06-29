@@ -5,7 +5,7 @@
 {% block content %}
 <br>
 <br>
-<h1 class="text-center p-2 d-block">Latest Events</h1>
+<h1 class="text-center p-2 d-block">Events</h1>
 <div class="container d-flex flex-row flex-wrap justify-content-center">
     {% for event in events %}
     <div class="col-sm-6 mb-3 mb-sm-0">
@@ -13,10 +13,10 @@
             <div class="card-body">
                 <h5 class="card-title">{{ event.name }}</h5>
                 <img src="{{ event.image.url }}" class="card-img-top">
-                <p class="card-text">{{ event.description|truncatechars:100 }}p>
+                <h1>{{ event.description|truncatechars:100 }}</h1>
                 <p class="card-text">{{ event.date }}</p>
                 <p class="card-text">{{ event.time }}</p>
-                <a href="{% url 'event_detail' event.id %}" class="btn btn-primary">Buy Tickets</a>
+                <a href="{% url 'event_detail' event.id %}" class="btn btn-primary">See More</a>
             </div>
         </div>
     </div>

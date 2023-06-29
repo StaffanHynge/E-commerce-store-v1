@@ -22,7 +22,6 @@ class EventForm(forms.ModelForm):
         description = forms.CharField(widget=RichTextWidget())
 
         widgets = {
-            "description": forms.Textarea(attrs={"rows": 5}),
             "date": DateInput(),
             "time": TimeInput()
         }

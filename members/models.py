@@ -12,6 +12,7 @@ A members model to maintain information and the members orderhistory
 
 class UserProfile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
+    default_name = models.CharField(max_length=254, null=True)
     default_phonenumber = models.CharField(
         max_length=20, null=True, blank=True)
     default_email = models.CharField(max_length=250, null=True, blank=True)

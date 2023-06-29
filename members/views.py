@@ -1,7 +1,10 @@
 from django.shortcuts import render, get_object_or_404
-from django.contrib import messages 
+from django.contrib import messages
 from .models import UserProfile
+from checkout.models import Order
+from events.models import Events
 from .forms import UserProfileForm
+from django.contrib.auth.decorators import login_required
 
 
 def member(request):
@@ -20,3 +23,4 @@ def member(request):
         'orders': orders,
     }
     return render(request, template, context)
+

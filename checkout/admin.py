@@ -12,6 +12,8 @@ class OrderItemAdmin(admin.TabularInline):
 class OrderAdmin(admin.ModelAdmin):
     readonly_fields = ('order_number', 'date_now', 'order_total')
 
+    fields = ('order_number', 'user_profile')
+
     list_display = ('full_name', 'date_now', 'order_number', 'order_total')
 
 

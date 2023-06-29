@@ -10,6 +10,4 @@ urlpatterns = [
          views.checkout_success, name='checkout_success'),
     path('download_order/<order_number>/',
          download_order, name='download_order'),
-    path('order_history/',
-         views.order_history, name='order_history'),
 ]

@@ -11,6 +11,8 @@ from bag.contexts import bag_contents
 from .forms import OrderForm
 from events.models import Events
 from .models import Order, OrderItem
+from members.models import UserProfile
+from members.forms import UserProfileForm
 import stripe
 import csv
 
@@ -121,6 +123,7 @@ def checkout_success(request, order_number):
 
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
+
     messages.success(request, f'Order Succesfull')
 
     if 'bag' in request.session:
@@ -132,11 +135,3 @@ def checkout_success(request, order_number):
         'download_url': reverse('download_order', args=[order_number])
     }
     return render(request, template, context)
-
-
-@login_required
-def order_history(request):
-    orders = Order.objects.filter(
-        email=request.user.email).order_by('-date_now')
-    template = 'checkout/order_history.html'
-    return render(request, template, {'orders': orders})

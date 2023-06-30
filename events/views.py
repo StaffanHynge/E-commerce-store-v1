@@ -7,7 +7,7 @@ from django.views.generic import (
     UpdateView,
 )
 from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
-
+from django.contrib.auth.decorators import user_passes_test
 from .models import Events
 from .forms import EventForm
 

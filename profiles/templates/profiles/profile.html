@@ -1,1 +1,31 @@
 {% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Profile - {{profile.user.username}}{% endblock %}
+
+{% block content %}
+<div class="container p-4">
+    <div class="profile">
+        <div class="info">
+            <div class="profile-img text-center">
+                {% if profile.image.url is not none %}
+                <img src="{{ profile.image.url }}" alt="{{ profile.user.username }}'s Profile Image ">
+                {% else %}
+                <img src="#" alt="">
+                {% endif %}
+            </div>
+            <h1>{{ profile.user.username }}</h1>
+            <p>{{ profile.about }}</p>
+            <div>
+                <h1 class="text-center pb-4">Events</h1>
+                {% for event in profile.user.event_owner.all %}
+                <a href="{% url 'event_detail' event.id %}">
+                    <h3>{{ event.name }}</h3>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% endblock %}

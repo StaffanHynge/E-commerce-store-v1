@@ -28,6 +28,9 @@
                         href="/accounts/logout/">Logout</a>
                     <a class="dropdown-item{% if url_name == 'add_event' %}active{% endif %}"
                         href="{% url 'add_event' %}">New</a>
+                    <a class="dropdown-item{% if url_name == 'profile' %}active{% endif %}"
+                        href="{% url 'profile' request.user.id %}">Profile</a>
+
                 </div>
                 {% else %}
                 <div class="dropdown-menu">

@@ -11,8 +11,6 @@ from bag.contexts import bag_contents
 from .forms import OrderForm
 from events.models import Events
 from .models import Order, OrderItem
-from members.models import UserProfile
-from members.forms import UserProfileForm
 import stripe
 import csv
 

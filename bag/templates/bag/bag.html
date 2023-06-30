@@ -39,9 +39,9 @@
                         </td>
                         <td class="py-3">
                             <p class="my-0"><strong>{{ item.event.name }}</strong></p>
-                            <p class="my-0">{{ item.event.date }}</p>
-                            <p class="my-0">{{ item.event.time }}</p>
-                            <p class="my-0">{{ item.event.location }}</p>
+                            <p class="my-0"><strong>Date:</strong> {{ item.event.date }}</p>
+                            <p class="my-0"><strong>Time:</strong> {{ item.event.time }}</p>
+                            <p class="my-0"><strong>Location:</strong> {{ item.event.location }}</p>
                         </td>
                         <td class="py-3">
                             <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">

@@ -3,14 +3,14 @@
 {% block title %}Create Event{% endblock %}
 
 {% block content %}
-
+<hr>
 <div class="container">
     <form method="POST" enctype="multipart/form-data" class="p-2">
         <h1 class="text-center">Create Event</h1>
         {% csrf_token %}
         {{ form.media }}
         {{ form|crispy }}
-        <button type="submit">Create Event</button>
+        <button type="submit" class="btn btn-success float-right">Create Event</button>
     </form>
 </div>
 {% endblock %}

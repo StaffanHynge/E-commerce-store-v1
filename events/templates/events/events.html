@@ -11,11 +11,10 @@
     <div class="col-sm-6 mb-3 mb-sm-0">
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title">{{ event.name }}</h5>
+                <h4 class="card-title"><em>{{ event.name }}</em></h4>
                 <img src="{{ event.image.url }}" class="card-img-top">
-                <h1>{{ event.description|truncatechars:100 }}</h1>
-                <p class="card-text">{{ event.date }}</p>
-                <p class="card-text">{{ event.time }}</p>
+                <p class="card-text"><strong>Date:</strong> {{ event.date }}</p>
+                <p class="card-text"><strong>Time:</strong> {{ event.time }}</p>
                 <a href="{% url 'event_detail' event.id %}" class="btn btn-primary">See More</a>
             </div>
         </div>

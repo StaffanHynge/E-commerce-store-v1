@@ -11,12 +11,12 @@ class Profile(models.Model):
     user = models.ForeignKey(
         User, related_name='profile', on_delete=models.CASCADE)
     image = ResizedImageField(
-     size=[200, 200],
-     quality=75,
-     upload_to='profiles/',
-     force_format='WEBP',
-     blank=False,
-     )
+        size=[200, 200],
+        quality=75,
+        upload_to='profiles/',
+        force_format='WEBP',
+        blank=False,
+    )
     about = models.CharField(max_length=1000, null=True, blank=True)
     real_name = models.CharField(max_length=250, null=True, blank=True)
 

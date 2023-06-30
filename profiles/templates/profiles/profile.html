@@ -5,19 +5,20 @@
 
 {% block content %}
 <hr>
-<div class="mx-auto" style="width: 18rem;">
+<div class="mx-auto profile" style="width: 18rem;">
     <div class="card" style="width: 100%;">
         {% if profile.image.url is not none %}
-        <img src="{{ profile.image.url }}" class="card-img-top" alt="{{ profile.user.username }}'s Profile Image">
+        <img src="{{ profile.image.url }}" class="card-img-top profile-img"
+            alt="{{ profile.user.username }}'s Profile Image">
         {% endif %}
         <div class="card-body">
             <h5 class="card-title"><strong>Name:</strong> {{ profile.user.username }}</h5>
             {% if profile.about is not none %}
-            <p class="card-text"><strong>About:</strong> {{ profile.about }}</p>
+            <p class="card-text"><strong>About:</strong><em> {{ profile.about }}</em></p>
             {% endif %}
             {% if request.user == profile.user %}
             <div>
-                <button id="myBtn" class="btn btn-primary w-25 mb-4">Edit</button>
+                <button id="myBtn" class="btn btn-warning text-white w-25 mb-4">Edit</button>
             </div>
             {% endif %}
             <!-- The Modal -->
@@ -44,7 +45,7 @@
 <hr>
 <div class="mx-auto" style="width: 18rem;">
     <h3 class="text-left pb-4">Events</h3>
-    <ul class="list-group">
+    <ul class="list-group profile-events">
         {% for event in profile.user.event_owner.all %}
         <li class="list-group-item">
             <a href="{% url 'event_detail' event.id %}">
@@ -57,6 +58,7 @@
 </div>
 </div>
 </div>
+
 
 {% endblock %}
 

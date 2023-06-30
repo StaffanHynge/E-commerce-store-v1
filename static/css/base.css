@@ -44,3 +44,34 @@
     border-radius: 15px;
     box-shadow: 0 9px #999;
 }
+
+/* Profiles */
+.profile-img {
+    width: 280 px;
+    margin: 0 auto;
+}
+
+.profile-img img {
+    border-radius: 8px;
+    width: 100%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info {
+    width: 100%;
+    text-align: center;
+}
+
+.profile-events {
+    width: 100%;
+
+}
+
+.text-white {
+    color: white;
+}

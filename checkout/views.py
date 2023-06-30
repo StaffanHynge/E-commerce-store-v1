@@ -46,14 +46,15 @@ def checkout(request):
 
                 except Events.DoesNotExist:
                     messages.error(request, (
-                        "One of the products in your bag wasn't found in our database. "
+                        "One of the products in your bag wasn't found. "
                         "Please call us for assistance!")
                     )
                     order.delete()
                     return redirect(reverse('view_bag'))
 
             request.session['save_info'] = 'save_info' in request.POST
-            return redirect(reverse('checkout_success', args=[order.order_number]))
+            return redirect(reverse('checkout_success',
+                                    args=[order.order_number]))
         else:
             messages.error(request, 'There was an error with your form ')
     else:
@@ -108,9 +109,6 @@ def download_order(request, order_number):
             line_item.event.date,
             line_item.event.time,
             line_item.event.location,
-            request.build_absolute_uri(
-                line_item.event.image.url) if line_item.event.image
-            else '',
         ])
 
     # Return the response with the CSV file

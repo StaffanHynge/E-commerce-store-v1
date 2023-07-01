@@ -7,6 +7,7 @@ from django.views.generic import (
     UpdateView,
 )
 from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
+from django.db.models import Q
 from .models import Events
 from .forms import EventForm
 
@@ -16,6 +17,20 @@ class EventList(ListView):
     template_name = 'events/events.html'
     model = Events
     context_object_name = 'events'
+
+    def get_queryset(self, **kwargs):
+        query = self.request.GET.get('q')
+        if query:
+            event_list = self.model.objects.filter(
+                Q(name__icontains=query) |
+                Q(location__icontains=query) |
+                Q(description__icontains=query) |
+                Q(date__icontains=query) |
+                Q(time__icontains=query)
+            )
+        else:
+            event_list = self.model.objects.all()
+        return event_list
 
 
 class EventDetail(DetailView):

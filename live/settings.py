@@ -29,7 +29,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['8000-staffanhynge-e-commerce-ko0crtaavq.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['8000-staffanhynge-e-commerce-ko0crtaavq.us2.codeanyapp.com',
+                 'live-events.herokuapp.com']
 
 
 # Application definition
@@ -40,8 +41,10 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'cloudinary.storage'
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'cloudinary'
 
     'allauth',
     'allauth.account',
@@ -142,7 +145,7 @@ WSGI_APPLICATION = 'live.wsgi.application'
 
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE'))
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
 else:
 
@@ -197,10 +200,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
+MEDIAFILES_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 # Stripe setup
 STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')

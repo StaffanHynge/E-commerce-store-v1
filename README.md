@@ -239,3 +239,71 @@ By fostering a community of users who are actively creating and attending events
   <summary>admin.py</summary>
   <img src="pictures/profileadmin.png" alt="Image description">
 </details>
+
+
+## Test
+
+### Accounts 
+
+<details>
+  <summary>Signup</summary>
+  <img src="pictures/signup1.png" alt="Image description">
+  <img src="pictures/signup2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Login</summary>
+  <img src="pictures/login1.png" alt="Image description">
+  <img src="pictures/login2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Sign Out</summary>
+  <img src="pictures/signout.png" alt="Image description">
+</details>
+
+### Events
+
+<details>
+  <summary>Create Event</summary>
+  <img src="pictures/create1.png" alt="Image description">
+  <img src="pictures/create2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Edit Event</summary>
+  <img src="pictures/edit1.png" alt="Image description">
+  <img src="pictures/edit2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Delete Event</summary>
+  <img src="pictures/delete1.png" alt="Image description">
+  <img src="pictures/delete2.png" alt="Image description">
+</details>
+
+### Profile 
+
+<details>
+  <summary>Edit Profile</summary>
+  <img src="pictures/editp1.png" alt="Image description">
+  <img src="pictures/editp2.png" alt="Image description">
+  <img src="pictures/editp3.png" alt="Image description">
+</details>
+
+### Profile 
+
+<details>
+  <summary>Payment</summary>
+  <img src="pictures/pay1.png" alt="Image description">
+  <img src="pictures/pay2.png" alt="Image description">
+  <img src="pictures/pay3.png" alt="Image description">
+  <img src="pictures/pay4.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Download</summary>
+  <img src="pictures/download.png" alt="Image description">
+</details>
+
+

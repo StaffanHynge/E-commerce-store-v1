@@ -16,7 +16,7 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-if os.path exists('env.py'):
+if os.path.exists('env.py'):
     import env
 
 
@@ -142,7 +142,7 @@ WSGI_APPLICATION = 'live.wsgi.application'
 
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
-        'default' : dj_database_url.parse(os.environ.get('DATABASE'))
+        'default': dj_database_url.parse(os.environ.get('DATABASE'))
     }
 else:
 

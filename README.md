@@ -75,6 +75,51 @@ Here are the user stories I created in the beginning of the project. I have used
 | As an admin, I can edit an event so that I can update the details of the event                                       | Must Have   |
 | As an admin, I can delete an event so that I can remove events that are fully booked                                 | Must Have   |
 
+## SEO
+The purpose of my site is to provide small businesses with an easy way to publish their events and reach their target audience. To generate ideas and gauge the search volume and competition of keywords related to events, I used Google Autosearch and Wordtracker. After researching and analyzing the results, I selected the keywords that were most relevant to my site's purpose.
+
+<details>
+  <summary>Google</summary>
+  <img src="icons/google1.png" alt="Image description">
+  <img src="icons/google2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Wordtracker</summary>
+  <img src="icons/cheap.png" alt="Image description">
+  <img src="icons/family.png" alt="Image description">
+</details>
+
+I decided to use these keywords beacuse they gave me good results and are related to what I want to contribute with on this site. 
+
+* Community events Events near me
+* Nightlife events Family event
+* Upcoming events
+* Where to see local bands
+* Find tickets for karaoke events
+* Get tickets for local bar events
+* Cheap event tickets online
+* Community events and ticket sales
+* local family events near me 
+* cheap easy event ticket online
+* activities and events that parents and kids can enjoy together
+
+This is how I implemented some of these keywords on my site. 
+  <summary>Keywords</summary>
+  <img src="icons/.png" alt="Image description">
+  <img src="icons/.png" alt="Image description">
+</details>
+
+It's important to note that since the content on my site will vary depending on the events being showcased, SEO is an ongoing and continuous effort that requires responsiveness to adapting content to match what users are searching for. 
+
+## Marketing
+
+As a contributor to various types of musicians and private entrepreneurs, my focus is on helping them reach out to their existing fans and attract new ones. To build a strong foundation, I plan to start locally, leveraging my own network and encouraging users to create their own events tailored to their needs. This will not only drive traffic to my site, but will also generate organic growth over time.
+
+To achieve this goal, I will primarily rely on unpaid social media marketing, utilizing my own contacts to help spread the word and reach a wider audience. This approach will not only be cost-effective, but will also allow for a more personal and authentic connection with users.
+
+By fostering a community of users who are actively creating and attending events through my platform, I can establish the site as a go-to resource for discovering and participating in local events. Over time, this can lead to increased brand recognition, stronger relationships with users, and greater opportunities for monetization and growth.
+
 ## Validation
 
 > PEP8 Validation Service was used to check the code for PEP8 requirements.

@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['8000-staffanhynge-e-commerce-ko0crtaavq.us2.codeanyapp.com',
-                 'live-events.herokuapp.com']
+                 'live-events-9e71b07dd75e.herokuapp.com']
 
 
 # Application definition

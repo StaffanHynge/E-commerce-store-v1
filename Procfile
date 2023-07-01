@@ -1,1 +1,1 @@
-web: gunicorn live_events.wsgi:application
+web: gunicorn live.wsgi:application

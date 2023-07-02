@@ -66,7 +66,7 @@ These are the user stories I developed at the start of the project, prioritizing
 | As a shopper I can view Individual Eventdetails so that i can identify the details , time and the price of the event | Must Have   |
 | As a shopper I can view the total of my purchase so that I can avoid to spend too much money                         | Must Have   |
 | As a shopper I can view items in my bag so that I can see all the items I am going to purchase                       | Must Have   |
-| As a Shopper I can adjust the quantity in my bag so that I can make changes before I purchase                        | Must Have   |
+| As a Shopper I can adjust the quantity in my bag so that I can make changes before I purchase                        | Should Have |
 | As a shopper I can easily enter my payment information so that I can checkout quickly                                | Must Have   |
 | As a shopper I can search for an event so that I can find a specific event that interests me                         | Should Have |
 | As an admin, I can add an event so that new events will be added to the page                                         | Must Have   |
@@ -81,7 +81,7 @@ I used Trello during my development because I am used to work on that platform f
 
 <details>
   <summary>Kanban on Trello</summary>
-  <img src="pictures/trello.png" alt="Image description">
+  <img src="pictures/trello2.png" alt="Image description">
 </details>
 
 ## SEO
@@ -116,8 +116,8 @@ I decided to use these keywords beacuse they gave me good results and are relate
 
 This is how I implemented some of these keywords on my site.
 
-  <summary>Keywords</summary>
 <details>
+<summary>Keywords</summary>
   <img src="pictures/homeseo2.png" alt="Image description">
   <img src="pictures/description.png" alt="Image description">
 </details>

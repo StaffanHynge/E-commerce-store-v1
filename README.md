@@ -118,7 +118,7 @@ This is how I implemented some of these keywords on my site.
 
   <summary>Keywords</summary>
 
-  <img src="pictures/homeseo.png" alt="Image description">
+  <img src="pictures/homeseo2.png" alt="Image description">
   <img src="pictures/description.png" alt="Image description">
 </details>
 
@@ -336,11 +336,13 @@ I've included links to social media profiles such as Instagram, LinkedIn, and Tw
   <img src="pictures/download.png" alt="Image description">
 </details>
 
+## Validation 2
+
 > Lighthouse to check quality and performance of the page.
 
 <details>
   <summary>Lighthouse</summary>
-  <img src="pictures/lighthouseh.png" alt="Image description">
+  <img src="pictures/ligthouseh.png" alt="Image description">
   <img src="pictures/lighthousee.png" alt="Image description">
   <img src="pictures/lighthouseed.png" alt="Image description">
   <img src="pictures/lighthousec.png" alt="Image description">

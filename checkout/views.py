@@ -97,7 +97,7 @@ def download_order(request, order_number):
     # Create a CSV writer object and write the header row
     writer = csv.writer(response)
     writer.writerow(['Name', 'Quantity', 'Price', 'Total',
-                    'Date', 'Time', 'Location', 'Image'])
+                    'Date', 'Time', 'Location'])
 
     # Write each line item as a row in the CSV
     for line_item in order.lineitems.all():

@@ -315,7 +315,7 @@ By fostering a community of users who are actively creating and attending events
   <img src="pictures/editp3.png" alt="Image description">
 </details>
 
-### Profile
+### Payment
 
 <details>
   <summary>Payment</summary>
@@ -329,6 +329,34 @@ By fostering a community of users who are actively creating and attending events
   <summary>Download</summary>
   <img src="pictures/download.png" alt="Image description">
 </details>
+
+> Lighthouse to check quality and performance of the page. 
+
+<details>
+  <summary>Lighthouse</summary>
+  <img src="pictures/lighthouseh.png" alt="Image description">
+  <img src="pictures/lighthousee.png" alt="Image description">
+  <img src="pictures/lighthouseed.png" alt="Image description">
+  <img src="pictures/lighthousec.png" alt="Image description">
+  <img src="pictures/lighthousep.png" alt="Image description">
+</details>
+
+> html Validator was used to check the code for html. 
+> All the code passes with no errors or warnings  except for the the use of jinja templates and a meta tag.
+
+<details>
+  <summary>Html</summary>
+  <img src="pictures/html.png" alt="Image description">
+</details>
+
+> Css validator was used to check the code for my css. 
+> All the code passes with no errors or warnings.
+
+<details>
+  <summary>CSS</summary>
+  <img src="pictures/css.png" alt="Image description">
+</details>
+
 
 ## Tech
 

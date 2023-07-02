@@ -386,6 +386,11 @@ I used these libraries, frameworks and databases for this project
 - A contactpage to contact the profiles
 - Email the order and tickets to the buyers
 
+## Deployment
+
+- The project are deployed to Heroku.
+- The deployment went well without any troubles or issues
+
 ## Credits
 
 > Here are some walkthroughs and videos that inspired and helped me with this project.

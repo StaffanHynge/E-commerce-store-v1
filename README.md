@@ -117,7 +117,7 @@ I decided to use these keywords beacuse they gave me good results and are relate
 This is how I implemented some of these keywords on my site.
 
   <summary>Keywords</summary>
-
+<details>
   <img src="pictures/homeseo2.png" alt="Image description">
   <img src="pictures/description.png" alt="Image description">
 </details>

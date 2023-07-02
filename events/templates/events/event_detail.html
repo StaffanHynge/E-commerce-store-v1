@@ -15,6 +15,7 @@
                 <p class="card-text"><strong>Date:</strong> {{ event.date }}</p>
                 <p class="card-text"><strong>Time:</strong> {{ event.time }}</p>
                 <p class="card-text"><strong>Location:</strong> {{ event.location }}</p>
+                <p class="card-text"><strong>Price:</strong>$ {{ event.price }}</p>
 
                 <form class="form" action="{% url 'add_to_bag' event.id %}" method="POST">
                     {% csrf_token %}

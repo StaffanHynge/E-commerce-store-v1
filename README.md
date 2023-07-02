@@ -6,7 +6,7 @@ Welcome to our event site, where unforgettable experiences await! Whether you're
 
 ## Features
 
-- Register a account for the site to login and logout
+- Register an account for the site to login and logout
 - Upload your event to the site
 - Edit and update your event
 - Delete your event
@@ -55,23 +55,23 @@ This is Profile and looks like this
 
 ## User Stories
 
-Here are the user stories I created in the beginning of the project. I have used the moscow method to prioritize what to do first and to know what can be implemented in the future.
+These are the user stories I developed at the start of the project, prioritizing their implementation using the Moscow method.
 
-| Userstories                                                                                                          | Moscow      | Test |
-| -------------------------------------------------------------------------------------------------------------------- | ----------- | ---- |
-| As a site user, I can register an account so that I can have a personal account                                      | Must Have   | Yes  |
-| As a site user, I can login and logout so that I can access my personal information                                  | Must Have   | Yes  |
-| As a Site User I can have a personalized profile so that I can view my orders                                        | Could Have  | Yes  |
-| As a shopper I can view a list of events so that I can select one to purchase tickets to                             | Must Have   | Yes  |
-| As a shopper I can view Individual Eventdetails so that i can identify the details , time and the price of the event | Must Have   | Yes  |
-| As a shopper I can view the total of my purchase so that I can avoid to spend to much money                          | Must Have   |
+| Userstories                                                                                                          | Moscow      |
+| -------------------------------------------------------------------------------------------------------------------- | ----------- |
+| As a site user, I can register an account so that I can have a personal account                                      | Must Have   |
+| As a site user, I can login and logout so that I can access my personal information                                  | Must Have   |
+| As a Site User I can have a personalized profile so that I can view my orders                                        | Could Have  |
+| As a shopper I can view a list of events so that I can select one to purchase tickets to                             | Must Have   |
+| As a shopper I can view Individual Eventdetails so that i can identify the details , time and the price of the event | Must Have   |
+| As a shopper I can view the total of my purchase so that I can avoid to spend too much money                         | Must Have   |
 | As a shopper I can view items in my bag so that I can see all the items I am going to purchase                       | Must Have   |
 | As a Shopper I can adjust the quantity in my bag so that I can make changes before I purchase                        | Must Have   |
 | As a shopper I can easily enter my payment information so that I can checkout quickly                                | Must Have   |
 | As a shopper I can search for an event so that I can find a specific event that interests me                         | Should Have |
 | As an admin, I can add an event so that new events will be added to the page                                         | Must Have   |
 | As an admin, I can edit an event so that I can update the details of the event                                       | Must Have   |
-| As an admin, I can delete an event so that I can remeove events that are fully booked                                | Must Have   |
+| As an admin, I can delete an event so that I can remove events that are fully booked                                 | Must Have   |
 | As an admin I can create a profile so I can see my uploaded events                                                   | Should Have |
 | As a user I can search for an event so I can discover new, upcoming events                                           | Could Have  |
 | As an admin, I can edit my profile so I can make changes to it                                                       | Should Have |
@@ -87,14 +87,14 @@ The purpose of my site is to provide small businesses with an easy way to publis
 
 <details>
   <summary>Google</summary>
-  <img src="icons/google1.png" alt="Image description">
-  <img src="icons/google2.png" alt="Image description">
+  <img src="pictures/google1.png" alt="Image description">
+  <img src="pictures/google2.png" alt="Image description">
 </details>
 
 <details>
   <summary>Wordtracker</summary>
-  <img src="icons/cheap.png" alt="Image description">
-  <img src="icons/family.png" alt="Image description">
+  <img src="pictures/cheap.png" alt="Image description">
+  <img src="pictures/family.png" alt="Image description">
 </details>
 
 I decided to use these keywords beacuse they gave me good results and are related to what I want to contribute with on this site.
@@ -114,8 +114,9 @@ I decided to use these keywords beacuse they gave me good results and are relate
 This is how I implemented some of these keywords on my site.
 
   <summary>Keywords</summary>
-  <img src="icons/.png" alt="Image description">
-  <img src="icons/.png" alt="Image description">
+
+  <img src="pictures/homeseo.png" alt="Image description">
+  <img src="pictures/description.png" alt="Image description">
 </details>
 
 It's important to note that since the content on my site will vary depending on the events being showcased, SEO is an ongoing and continuous effort that requires responsiveness to adapting content to match what users are searching for.
@@ -144,6 +145,8 @@ By fostering a community of users who are actively creating and attending events
   <img src="pictures/subscribe1.png" alt="Image description">
   <img src="pictures/subscribe2.png" alt="Image description">
 </details>
+
+I've included links to social media profiles such as Instagram, LinkedIn, and Twitter in the footer of my website. As many of the creators associated with the events I promote use social media as a means of self-promotion, I believe this addition contributes to the content, purpose, and marketing of my site.
 
 ## Validation
 
@@ -330,7 +333,7 @@ By fostering a community of users who are actively creating and attending events
   <img src="pictures/download.png" alt="Image description">
 </details>
 
-> Lighthouse to check quality and performance of the page. 
+> Lighthouse to check quality and performance of the page.
 
 <details>
   <summary>Lighthouse</summary>
@@ -341,22 +344,21 @@ By fostering a community of users who are actively creating and attending events
   <img src="pictures/lighthousep.png" alt="Image description">
 </details>
 
-> html Validator was used to check the code for html. 
-> All the code passes with no errors or warnings  except for the the use of jinja templates and a meta tag.
+> Html Validator was used to check the code for html.
+> All the code passes with no errors or warnings except for the the use of jinja templates and a meta tag.
 
 <details>
   <summary>Html</summary>
   <img src="pictures/html.png" alt="Image description">
 </details>
 
-> Css validator was used to check the code for my css. 
+> Css validator was used to check the code for my css.
 > All the code passes with no errors or warnings.
 
 <details>
   <summary>CSS</summary>
   <img src="pictures/css.png" alt="Image description">
 </details>
-
 
 ## Tech
 

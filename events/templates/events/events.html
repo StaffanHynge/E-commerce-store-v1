@@ -15,6 +15,7 @@
                 <img src="{{ event.image.url }}" class="card-img-top">
                 <p class="card-text"><strong>Date:</strong> {{ event.date }}</p>
                 <p class="card-text"><strong>Time:</strong> {{ event.time }}</p>
+                <p class="card-text">${{ event.price }}</p>
                 <a href="{% url 'event_detail' event.id %}" class="btn btn-primary">See More</a>
             </div>
         </div>

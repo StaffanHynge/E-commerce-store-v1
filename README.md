@@ -128,13 +128,21 @@ To achieve this goal, I will primarily rely on unpaid social media marketing, ut
 
 By fostering a community of users who are actively creating and attending events through my platform, I can establish the site as a go-to resource for discovering and participating in local events. Over time, this can lead to increased brand recognition, stronger relationships with users, and greater opportunities for monetization and growth.
 
-### Home
+### Facebook Page
 
 <details>
-  <summary>urls.py</summary>
+  <summary>Facebook</summary>
   <img src="pictures/facebook1.png" alt="Image description">
   <img src="pictures/facebook2.png" alt="Image description">
   <img src="pictures/facebook3.png" alt="Image description">
+</details>
+
+### Subscribe
+
+<details>
+  <summary>Subscribe</summary>
+  <img src="pictures/subscribe1.png" alt="Image description">
+  <img src="pictures/subscribe2.png" alt="Image description">
 </details>
 
 ## Validation

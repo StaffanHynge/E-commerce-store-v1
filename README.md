@@ -2,7 +2,7 @@
 
 [Here is the livelink](https://live-events-9e71b07dd75e.herokuapp.com/)
 
-Welcome to our event site, where unforgettable experiences await! Whether you're looking for a night of live music, a thrilling sports match, an immersive theater performance, or something in between, we've got you covered. Our site offers a wide variety of events to suit every taste and budget, all in one convenient location. Plus, purchasing tickets is easy and hassle-free, so you can spend less time planning and more time enjoying the excitement of the event. Join us in creating unforgettable memories at the hottest events around – we can't wait to see you there!
+Welcome to our event site, where unforgettable experiences await! Whether you're looking for a night of live music, a thrilling sports match, an immersive theater performance, or something in between, we've got you covered. Our site offers a wide variety of events to suit every taste and budget, all in one convenient location. Plus, purchasing tickets is easy and hassle-free, so you can spend less time planning and more time enjoying the excitement of the event. Join us in creating unforgettable memories at the hottest events around we can't wait to see you there!
 
 ## Features
 
@@ -55,28 +55,32 @@ This is Profile and looks like this
 
 ## User Stories
 
-Here are the user stories I created in the beginning of the project. I have used the moscow method to prioritize what to do first and to know what can be implemented in the future. 
+Here are the user stories I created in the beginning of the project. I have used the moscow method to prioritize what to do first and to know what can be implemented in the future.
 
-| Userstories | Moscow | Test |
-| ------ | ------ | ------ |
-| As a site user, I can register an account so that I can have a personal account | Must Have | Yes 
-| As a site user, I can login and logout so that I can access my personal information | Must Have| Yes
-| As a Site User I can have a personalized profile so that I can view my orders| Could  Have | Yes
-| As a shopper I can view a list of events so that I can select one to purchase tickets to | Must Have | Yes
-| As a shopper I can view Individual Eventdetails so that i can identify the details , time and the price of the event | Must Have | Yes
-| As a shopper I can view the total of my purchase so that I can avoid to spend to much money | Must Have |
-| As a shopper I can view items in my bag so that I can see all the items I am going to purchase | Must Have |
-| As a Shopper I can adjust the quantity in my bag so that I can make changes before I purchase| Must Have |
-|As a shopper I can easily enter my payment information so that I can checkout quickly| Must Have |
-|As a shopper I can search for an event so that I can find a specific event that interests me| Should Have |
-|As an admin, I can add an event so that new events will be added to the page| Must Have |
-|As an admin, I can edit an event so that I can update the details of the event| Must Have |
-|As an admin, I can delete an event so that I can remeove events that are fully booked| Must Have |
-|As an admin I can create a profile so I can see my uploaded events| Should Have |
-|As a user I can search for an event so I can discover new, upcoming events| Could Have |
-|As an admin, I can edit my profile so I can make changes to it| Should Have
-|As a buyer I can download my order so I can save it on my computer| Must Have |
+| Userstories                                                                                                          | Moscow      | Test |
+| -------------------------------------------------------------------------------------------------------------------- | ----------- | ---- |
+| As a site user, I can register an account so that I can have a personal account                                      | Must Have   | Yes  |
+| As a site user, I can login and logout so that I can access my personal information                                  | Must Have   | Yes  |
+| As a Site User I can have a personalized profile so that I can view my orders                                        | Could Have  | Yes  |
+| As a shopper I can view a list of events so that I can select one to purchase tickets to                             | Must Have   | Yes  |
+| As a shopper I can view Individual Eventdetails so that i can identify the details , time and the price of the event | Must Have   | Yes  |
+| As a shopper I can view the total of my purchase so that I can avoid to spend to much money                          | Must Have   |
+| As a shopper I can view items in my bag so that I can see all the items I am going to purchase                       | Must Have   |
+| As a Shopper I can adjust the quantity in my bag so that I can make changes before I purchase                        | Must Have   |
+| As a shopper I can easily enter my payment information so that I can checkout quickly                                | Must Have   |
+| As a shopper I can search for an event so that I can find a specific event that interests me                         | Should Have |
+| As an admin, I can add an event so that new events will be added to the page                                         | Must Have   |
+| As an admin, I can edit an event so that I can update the details of the event                                       | Must Have   |
+| As an admin, I can delete an event so that I can remeove events that are fully booked                                | Must Have   |
+| As an admin I can create a profile so I can see my uploaded events                                                   | Should Have |
+| As a user I can search for an event so I can discover new, upcoming events                                           | Could Have  |
+| As an admin, I can edit my profile so I can make changes to it                                                       | Should Have |
+| As a buyer I can download my order so I can save it on my computer                                                   | Must Have   |
 
+<details>
+  <summary>Kanban on Trello</summary>
+  <img src="pictures/trello.png" alt="Image description">
+</details>
 ## SEO
 
 The purpose of my site is to provide small businesses with an easy way to publish their events and reach their target audience. To generate ideas and gauge the search volume and competition of keywords related to events, I used Google Autosearch and Wordtracker. After researching and analyzing the results, I selected the keywords that were most relevant to my site's purpose.
@@ -123,6 +127,15 @@ As a contributor to various types of musicians and private entrepreneurs, my foc
 To achieve this goal, I will primarily rely on unpaid social media marketing, utilizing my own contacts to help spread the word and reach a wider audience. This approach will not only be cost-effective, but will also allow for a more personal and authentic connection with users.
 
 By fostering a community of users who are actively creating and attending events through my platform, I can establish the site as a go-to resource for discovering and participating in local events. Over time, this can lead to increased brand recognition, stronger relationships with users, and greater opportunities for monetization and growth.
+
+### Home
+
+<details>
+  <summary>urls.py</summary>
+  <img src="pictures/facebook1.png" alt="Image description">
+  <img src="pictures/facebook2.png" alt="Image description">
+  <img src="pictures/facebook3.png" alt="Image description">
+</details>
 
 ## Validation
 
@@ -309,17 +322,16 @@ By fostering a community of users who are actively creating and attending events
   <img src="pictures/download.png" alt="Image description">
 </details>
 
-
 ## Tech
 
 I used these libraries, frameworks and databases for this project
 
-- Cloudinary 
-- GitHub 
-- Django AllAuth 
-- Pillow  
-- Psycopg2  
-- PostgreSQL 
+- Cloudinary
+- GitHub
+- Django AllAuth
+- Pillow
+- Psycopg2
+- PostgreSQL
 - Stripe
 
 ## Features to make in The Future
@@ -331,19 +343,17 @@ I used these libraries, frameworks and databases for this project
 - A contactpage to contact the profiles
 - Email the order and tickets to the buyers
 
-
-
 ## Credits
 
-
 > Here are some walkthroughs and videos that inspired and helped me with this project.
- - [Django Recipe sharing](https://www.youtube.com/watch?v=LsU79aY79UA&list=PLXuTq6OsqZjbCSfiLNb2f1FOs8viArjWy&index=15)
-  - [Boutique Ado](https://www.youtube.com/watch?v=3gQazh-EIzY&embeds_referring_euri=https%3A%2F%2Flearn.codeinstitute.net%2F&embeds_referring_origin=https%3A%2F%2Flearn.codeinstitute.net&source_ve_path=NzY3NTg&feature=emb_yt_watermark)
-- [I Think Therefore I Blog](https://www.youtube.com/watch?v=HlocBbrss04&t=1s)
 
-> Here for the css and images 
- - [Bootstrap for the css](https://getbootstrap.com)
- - [Pexels for the images](https://www.pexels.com/)
+- [Django Recipe sharing](https://www.youtube.com/watch?v=LsU79aY79UA&list=PLXuTq6OsqZjbCSfiLNb2f1FOs8viArjWy&index=15)
+- [Boutique Ado](https://www.youtube.com/watch?v=3gQazh-EIzY&embeds_referring_euri=https%3A%2F%2Flearn.codeinstitute.net%2F&embeds_referring_origin=https%3A%2F%2Flearn.codeinstitute.net&source_ve_path=NzY3NTg&feature=emb_yt_watermark)
+
+> Here for the css and images
+
+- [Bootstrap for the css](https://getbootstrap.com)
+- [Pexels for the images](https://www.pexels.com/)
 - [Google font for the fonts](https://fonts.google.com/)
 - [Font Awesome for the icons](https://fontawesome.com/)
 - [For my favicon](https://favicon.io/favicon-converter/)

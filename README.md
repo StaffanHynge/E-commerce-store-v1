@@ -77,10 +77,13 @@ These are the user stories I developed at the start of the project, prioritizing
 | As an admin, I can edit my profile so I can make changes to it                                                       | Should Have |
 | As a buyer I can download my order so I can save it on my computer                                                   | Must Have   |
 
+I used Trello during my development because I am used to work on that platform from earlier jobs and projects.
+
 <details>
   <summary>Kanban on Trello</summary>
   <img src="pictures/trello.png" alt="Image description">
 </details>
+
 ## SEO
 
 The purpose of my site is to provide small businesses with an easy way to publish their events and reach their target audience. To generate ideas and gauge the search volume and competition of keywords related to events, I used Google Autosearch and Wordtracker. After researching and analyzing the results, I selected the keywords that were most relevant to my site's purpose.

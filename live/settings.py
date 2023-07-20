@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['8000-staffanhynge-e-commerce-ko0crtaavq.us2.codeanyapp.com',
+ALLOWED_HOSTS = ['8000-staffanhynge-e-commerce-6sgrurha5q.us2.codeanyapp.com',
                  'live-events-9e71b07dd75e.herokuapp.com']
 
 

@@ -6,6 +6,9 @@ body {
 }
 
 
+.fixed-height {
+    height: 200px;
+}
 
 /* Footer */
 footer {

@@ -8,18 +8,18 @@
 <h1 class="text-center p-2 d-block">Events</h1>
 <div class="container d-flex flex-row flex-wrap justify-content-center">
     {% for event in events %}
-    <div class="col-sm-6 mb-3 mb-sm-0">
-        <div class="card">
-            <div class="card-body card-body-fixed-height">
-                <h4 class="card-title"><em>{{ event.name }}</em></h4>
-                <img src="{{ event.image.url }}" class="card-img-top">
-                <p class="card-text"><strong>Date:</strong> {{ event.date }}</p>
-                <p class="card-text"><strong>Time:</strong> {{ event.time }}</p>
-                <p class="card-text"><strong>Price:</strong> ${{ event.price }}</p>
-                <a href="{% url 'event_detail' event.id %}" class="btn btn-primary">See More</a>
-            </div>
+
+    <div class="card m-3" style="width: 18rem;">
+        <div class="card-body">
+            <h4 class="card-title"><em>{{ event.name }}</em></h4>
+            <img src="{{ event.image.url }}" class="card-img-top fixed-height">
+            <p class="card-text"><strong>Date:</strong> {{ event.date }}</p>
+            <p class="card-text"><strong>Time:</strong> {{ event.time }}</p>
+            <p class="card-text"><strong>Price:</strong> ${{ event.price }}</p>
+            <a href="{% url 'event_detail' event.id %}" class="btn btn-primary">See More</a>
         </div>
     </div>
+
 
     {% endfor %}
 </div>

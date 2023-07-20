@@ -4,34 +4,30 @@
 {% block content %}
 <br>
 <br>
-<div style="text-align: center;" class="chimp">
-    <form
-        action="https://hotmail.us14.list-manage.com/subscribe/post?u=335c3fe05256bca8248863906&amp;id=bd21bad676&amp;f_id=008d75e0f0"
-        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-        class="validate form-inline my-2 my-lg-0" target="_blank">
-        <div id="mc_embed_signup_scroll">
-            <div class="mc-field-group"><label for="mce-EMAIL">Email:<span class="asterisk">*</span></label><input
-                    type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
-            <div id="mce-responses" class="clear foot">
-                <div class="response" id="mce-error-response" style="display: none;"></div>
-                <div class="response" id="mce-success-response" style="display: none;"></div>
-            </div>
-            <div aria-hidden="true" style="position: absolute; left: -5000px;">
-                /* real people should not fill this in and expect good things - do not remove this or
-                risk
-                form bot
-                signups */
-                <input type="text" name="b_335c3fe05256bca8248863906_bd21bad676" tabindex="-1" value="">
-            </div>
-            <div class="optionalParent">
-                <div>
-                    <input type="submit" name="subscribe" id="mc-embedded-subscribe"
-                        class="btn btn-outline-info my-2 my-sm-0" value="Subscribe">
+<div class="form-wrapper">
+    <div style="text-align: center;" class="chimp">
+        <form
+            action="https://hotmail.us14.list-manage.com/subscribe/post?u=335c3fe05256bca8248863906&amp;id=bd21bad676&amp;f_id=008d75e0f0"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+            class="validate form-inline my-2 my-lg-0" target="_blank">
+            <div id="mc_embed_signup_scroll" class="flex-container">
+                <div class="mc-field-group flex-input">
+                    <label for="mce-EMAIL">
+                        <h5 class="asterisk">What is your Email?</h5>
+                    </label>
+                    <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="">
+                </div>
+                <div class="optionalParent flex-submit">
+                    <div>
+                        <input type="submit" name="subscribe" id="mc-embedded-subscribe"
+                            class="btn btn-outline-info my-2 my-sm-0" value="Subscribe">
+                    </div>
                 </div>
             </div>
-        </div>
-    </form>
+        </form>
+    </div>
 </div>
+
 
 {% endblock %}
 

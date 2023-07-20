@@ -130,14 +130,37 @@ footer {
     width: 600px;
 }
 
-.chimp {
-    flex: ;
-    text-align: center;
+.form-wrapper {
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
+    height: 100vh;
 }
 
+.chimp {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-input {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.flex-submit {
+    flex: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media (max-width: 850px) {
     footer {

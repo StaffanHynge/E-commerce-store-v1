@@ -60,30 +60,32 @@
         {% include 'includes/header.html' %}
     </header>
     <br>
+    <main>
+        {% if messages %}
+        <div class="message-container">
+            {% for message in messages %}
+            {% include 'includes/toasts/toast_success.html' %}
+            {% endfor %}
 
-    {% if messages %}
-    <div class="message-container">
-        {% for message in messages %}
-        {% include 'includes/toasts/toast_success.html' %}
-        {% endfor %}
+        </div>
+        {% endif %}
 
-    </div>
-    {% endif %}
+        {% block page_header %}
 
-    {% block page_header %}
+        {% endblock %}
 
-    {% endblock %}
+        {% block content %}
 
-    {% block content %}
+        {% endblock %}
 
-    {% endblock %}
+        {% block postloadjs %}
+        <script type="text/javascript">
+            $('.toast').toast('show');
+        </script>
+        {% endblock %}
+    </main>
 
-    {% block postloadjs %}
-    <script type="text/javascript">
-        $('.toast').toast('show');
-    </script>
-    {% endblock %}
-
+    {% include 'includes/footer.html' %}
 
 </body>
 

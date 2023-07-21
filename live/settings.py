@@ -60,7 +60,8 @@ INSTALLED_APPS = [
 
     'crispy_forms',
     'crispy_bootstrap5',
-    'djrichtextfield'
+    'djrichtextfield',
+    'django_countries',
 ]
 
 MIDDLEWARE = [

@@ -15,8 +15,3 @@ class AddVenue(CreateView):
         form.instance.user = self.request.user
         return super(AddVenue, self).form_valid(form)
 
-class VenueList(ListView):
-    """View all Events"""
-    template_name = 'venues/venues.html'
-    model = Venues
-    context_object_name = 'venues'

@@ -12,8 +12,8 @@ class Venues(models.Model):
     home_page = models.URLField()
     social_media = models.URLField()
     city = models.CharField(max_length=250)
-    country = models.CountryField(blank_label='Country', null=True, blank=True)
-    event = models.ManyToManyField(
+    country = CountryField(blank_label='Country', null=True, blank=True)
+    event = models.ForeignKey(
         Events, null=False, blank=False, on_delete=models.CASCADE)
     image = ResizedImageField(
         size=[200, 200],

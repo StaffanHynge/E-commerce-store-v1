@@ -1,10 +1,11 @@
 from django import forms 
 from .models import Venues
+from django_countries.fields import CountryField
 from django_countries.widgets import CountrySelectWidget
 
 
 
-class VenueForm(forms.Modelform):
+class VenueForm(forms.ModelForm):
     country = CountryField(blank_label='Country', null=True,
                            blank=True).formfield(widget=CountrySelectWidget)
 
@@ -16,8 +17,8 @@ class VenueForm(forms.Modelform):
             "Address": "Venues Address",
             "phone_number": "Phone Number",
             "home_page": "Link to homepage", 
-            "social_media": "Link to Social Media".
-            "city": "City".
+            "social_media": "Link to Social Media",
+            "city": "City",
             "country": "Country",
             "image": "Image"
         }

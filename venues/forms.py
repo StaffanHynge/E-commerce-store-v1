@@ -11,7 +11,8 @@ class VenueForm(forms.ModelForm):
 
     class Meta: 
         model = Venues
-        fields = ['address', 'phone_number', 'home_page', 'social_media', 'city', 'country', 'image']
+        fields = ['image', 'address', 'phone_number', 'home_page',
+                  'social_media', 'city', 'country']
 
         labels = {
             "Address": "Venues Address",

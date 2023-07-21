@@ -15,14 +15,12 @@
                 <p class="card-text"><strong>Country:</strong> {{ venue.country }}</p>
                 <p class="card-text"><strong>City:</strong> {{ venue.city }}</p>
 
-                {% if events %}
-                <ul>
-                    {% for event in events %}
-                    <li>{{ event.name }}</li>
-                    {% endfor %}
-                </ul>
-                {% else %}
-                <p>No events scheduled at this venue.</p>
+                {% if request.user == event.user %}
+                <div class="text-center">
+                    <a href="{% url 'edit_event' event.id %}" class="btn btn-warning float-left">Edit</a>
+                    <a href="{% url 'delete_venue' venue.id %}" class="btn btn-danger float-right">Delete</a>
+                </div>
                 {% endif %}
+
 
 {% endblock %}

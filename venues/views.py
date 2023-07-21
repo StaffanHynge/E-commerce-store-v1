@@ -1,7 +1,10 @@
 from django.shortcuts import render
-from django.views.generic import CreateView, ListView, DetailView
+from django.views.generic import CreateView, ListView, DetailView, DeleteView
 from .models import Venues
 from .forms import VenueForm
+from django.contrib.auth.mixins import (
+    UserPassesTestMixin, LoginRequiredMixin
+)
 
 # Create your views here.
 
@@ -26,13 +29,12 @@ class VenueDetail(DetailView):
     model = Venues
     context_object_name = 'venue'
 
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        venue = self.get_object()
 
-        # Retrieve all events held at the venue
-        events = venue.events.all()
+class DeleteVenue(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
+    model = Venues
+    success_url = '/venues/venuelist/'
 
-        context['events'] = events
-        return context
+    def test_func(self): 
+        return self.request.user == self.get_object().user
+
 

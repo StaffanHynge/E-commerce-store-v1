@@ -11,9 +11,10 @@
 
     <div class="card m-3" style="width: 18rem;">
         <div class="card-body">
+            <h4 class="card-title"><em>{{ venue.name }}</em></h4>
             <h4 class="card-title"><em>{{ venue.address }}</em></h4>
             <img src="{{ venue.image.url }}" class="card-img-top fixed-height">
-            <a href="{% url 'event_detail' event.id %}" class="btn btn-primary">See More</a>
+            <a href="{% url 'venue_detail' venue.id %}" class="btn btn-primary">See More</a>
         </div>
     </div>
 

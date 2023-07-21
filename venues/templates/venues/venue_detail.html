@@ -15,9 +15,9 @@
                 <p class="card-text"><strong>Country:</strong> {{ venue.country }}</p>
                 <p class="card-text"><strong>City:</strong> {{ venue.city }}</p>
 
-                {% if request.user == event.user %}
+                {% if request.user == venue.user %}
                 <div class="text-center">
-                    <a href="{% url 'edit_event' event.id %}" class="btn btn-warning float-left">Edit</a>
+                    <a href="{% url 'edit_venue' venue.id %}" class="btn btn-warning float-left">Edit</a>
                     <a href="{% url 'delete_venue' venue.id %}" class="btn btn-danger float-right">Delete</a>
                 </div>
                 {% endif %}

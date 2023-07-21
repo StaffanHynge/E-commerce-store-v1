@@ -1,7 +1,6 @@
 from django.db import models
 from django_countries.fields import CountryField
 from django.contrib.auth.models import User
-from events.models import Events
 from django_resized import ResizedImageField
 
 
@@ -13,8 +12,7 @@ class Venues(models.Model):
     social_media = models.URLField()
     city = models.CharField(max_length=250)
     country = CountryField(blank_label='Country', null=True, blank=True)
-    event = models.ForeignKey(
-        Events, null=False, blank=False, on_delete=models.CASCADE)
+    name = models.CharField(max_length=250, null=True)
     image = ResizedImageField(
         size=[200, 200],
         quality=75,

@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}Venue Detail{% endblock %}
+
+{% block content %}
+<br>
+<div class="container d-flex flex-row flex-wrap justify-content-center">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title"><em>{{ venue.name }}</em></h4>
+                <img src="{{ venue.image.url }}" class="card-img-top">
+                <h6><strong>About:</strong></h6>
+                <p class="card-text">{{ venue.address }}</p>
+                <p class="card-text"><strong>Country:</strong> {{ venue.country }}</p>
+                <p class="card-text"><strong>City:</strong> {{ venue.city }}</p>
+
+                {% if events %}
+                <ul>
+                    {% for event in events %}
+                    <li>{{ event.name }}</li>
+                    {% endfor %}
+                </ul>
+                {% else %}
+                <p>No events scheduled at this venue.</p>
+                {% endif %}
+
+{% endblock %}

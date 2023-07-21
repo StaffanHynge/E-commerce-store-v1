@@ -10,7 +10,7 @@ class Events(models.Model):
     name = models.CharField(max_length=254,)
     description = models.CharField(max_length=10000,)
     price = models.DecimalField(max_digits=6, decimal_places=2)
-    location = models.CharField(max_length=234)
+    location = models.CharField(max_length=254)
     date = models.DateField(null=True)
     time = models.TimeField(null=True)
     image = ResizedImageField(

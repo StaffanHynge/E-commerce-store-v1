@@ -22,34 +22,43 @@
                 <a class="nav-link" href="{% url 'subscribe' %}">Subscribe</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% url 'add_venue' %}">Add Venue</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="{% url 'venue_list' %}">Venues</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{% url 'contact_us' %}">Contact Us</a>
-            </li>
+
 
 
             {% if request.user.is_authenticated %}
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'contact_us' %}">Contact Us</a>
+            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                     Account
                 </a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item {% if url_name == 'account_logout' %}active{% endif %}"
-                        href="/accounts/logout/">Logout</a>
-
-                    {% if request.user.is_superuser %}
-                    <a class="dropdown-item{% if url_name == 'add_event' %}active{% endif %}"
-                        href="{% url 'add_event' %}">New</a>
-                    {% endif %}
-
                     <a class="dropdown-item{% if url_name == 'profile' %}active{% endif %}"
                         href="{% url 'profile' request.user.id %}">Profile</a>
-
+                    <a class="dropdown-item {% if url_name == 'account_logout' %}active{% endif %}"
+                        href="/accounts/logout/">Logout</a>
                 </div>
+
+
+                    {% if request.user.is_superuser %}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Create
+                        </a>
+                    <div class="dropdown-menu">
+                    <a class="dropdown-item{% if url_name == 'add_event' %}active{% endif %}"
+                        href="{% url 'add_event' %}">New Event</a>
+                    <a class="dropdown-item{% if url_name == 'add_event' %}active{% endif %}" 
+                        href="{% url 'add_venue' %}">New Venue</a>
+                    </div>
+                    {% endif %}
+
+                    
+
+                
                 {% else %}
             <li class="nav-item">
                 <a class="nav-link {% if url_name == 'account_login' %}active{% endif %}"

@@ -8,11 +8,11 @@
 <h1 class="text-center p-2 d-block">Venues</h1>
 <div class="container d-flex flex-row flex-wrap justify-content-center">
     {% for venue in venues %}
-
+    
     <div class="card m-3" style="width: 18rem;">
         <div class="card-body">
-            <h4 class="card-title"><em>{{ venue.name }}</em></h4>
-            <h4 class="card-title"><em>{{ venue.address }}</em></h4>
+            <h4 class="card-title"><strong>{{ venue.name }}</strong></h4>
+            <h5 class="card-title"><em>{{ venue.address }}</em></h5>
             <img src="{{ venue.image.url }}" class="card-img-top fixed-height">
             <a href="{% url 'venue_detail' venue.id %}" class="btn btn-primary">See More</a>
         </div>

@@ -12,6 +12,8 @@ Welcome to our event site, where unforgettable experiences await! Whether you're
 - Delete your event
 - Buy tickets to events
 - Create a profile
+- Create, edit and delete a venue
+- Contact the site for questions and ideas
 
 ## models
 
@@ -334,6 +336,122 @@ I've included links to social media profiles such as Instagram, LinkedIn, and Tw
 <details>
   <summary>Download</summary>
   <img src="pictures/download.png" alt="Image description">
+</details>
+
+### Venues
+
+<details>
+  <summary>Create</summary>
+  <img src="pictures/create_venue.png" alt="Image description">
+  <img src="pictures/create_venue_2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Edit</summary>
+  <img src="pictures/edit_venue.png" alt="Image description">
+  <img src="pictures/edit_venue_2.png" alt="Image description">
+  <img src="pictures/edit_venue_3.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Delete</summary>
+  <img src="pictures/delete_venue_1.png" alt="Image description">
+  <img src="pictures/delete_venue_2.png" alt="Image description">
+  <img src="pictures/delete-venue_3.png" alt="Image description">
+</details>
+
+### Contact Form
+
+<details>
+  <summary>Contact us</summary>
+  <img src="pictures/contact_1.png" alt="Image description">
+  <img src="pictures/contact_2.png" alt="Image description">
+</details>
+
+### External links
+
+
+<details>
+  <summary>Linkedin</summary>
+  <img src="pictures/linkedin_1.png" alt="Image description">
+  <img src="pictures/linkedin_2.png" alt="Image description">
+</details>
+
+
+<details>
+  <summary>Instagram</summary>
+  <img src="pictures/instagram_1.png" alt="Image description">
+  <img src="pictures/instagram_2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Twitter/X</summary>
+  <img src="pictures/twitter_1.png" alt="Image description">
+  <img src="pictures/twitter_2.png" alt="Image description">
+</details>
+
+
+<details>
+  <summary>Facebook</summary>
+  <img src="pictures/facebook_1.png" alt="Image description">
+  <img src="pictures/facebook_2.png" alt="Image description">
+</details>
+
+### Navigation links
+
+<details>
+  <summary>Home</summary>
+  <img src="pictures/home_1.png" alt="Image description">
+  <img src="pictures/home_2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Events</summary>
+  <img src="pictures/events_1.png" alt="Image description">
+  <img src="pictures/events_2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Bag</summary>
+  <img src="pictures/bag_1.png" alt="Image description">
+  <img src="pictures/bag_2.png" alt="Image description">
+  <img src="pictures/bag_3.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Subscribe</summary>
+  <img src="pictures/subscribe_1.png" alt="Image description">
+  <img src="pictures/subscribe_2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Venues</summary>
+  <img src="pictures/venues_1.png" alt="Image description">
+  <img src="pictures/venues_2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Contact Us</summary>
+  <img src="pictures/contact_us_1.png" alt="Image description">
+  <img src="pictures/contact_us_2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Profile</summary>
+  <img src="pictures/profile_1.png" alt="Image description">
+  <img src="pictures/profile_2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>New Event</summary>
+  <img src="pictures/new_event_1.png" alt="Image description">
+  <img src="pictures/new_event_2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>New venue</summary>
+  <img src="pictures/new_venue_1.png" alt="Image description">
+  <img src="pictures/new_venue_2.png" alt="Image description">
 </details>
 
 ## Validation 2

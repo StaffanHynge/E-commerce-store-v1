@@ -92,6 +92,13 @@ I used Trello during my development because I am used to work on that platform f
   <img src="pictures/trello2.png" alt="Image description">
 </details>
 
+## Sizes
+
+- Small: 320x480
+- Medium: 768x1024
+- Large: 1280x802
+- X-large: 1600x992
+
 ## SEO
 
 The purpose of my site is to provide small businesses with an easy way to publish their events and reach their target audience. To generate ideas and gauge the search volume and competition of keywords related to events, I used Google Autosearch and Wordtracker. After researching and analyzing the results, I selected the keywords that were most relevant to my site's purpose.

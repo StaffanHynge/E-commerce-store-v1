@@ -17,6 +17,11 @@ main {
     height: 200px;
 }
 
+.fixed-height-bag {
+    height: 200px;
+    min-width: 250px;
+}
+
 /* Footer */
 footer {
     bottom: 0;
@@ -31,6 +36,7 @@ footer {
     background-color: hsla(173, 84%, 90%, 0.786) !important;
     border-radius: 88px;
 }
+
 
 .social-icon {
     height: 2rem;
@@ -162,9 +168,15 @@ footer {
     align-items: center;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 650px) {
     footer {
         display: none;
 
     }
+
+    .btn {
+        padding: .375rem .375rem;
+            font-size: .75rem;
+    }
 }
+

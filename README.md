@@ -78,6 +78,12 @@ These are the user stories I developed at the start of the project, prioritizing
 | As a user I can search for an event so I can discover new, upcoming events                                           | Could Have  |
 | As an admin, I can edit my profile so I can make changes to it                                                       | Should Have |
 | As a buyer I can download my order so I can save it on my computer                                                   | Must Have   |
+| As a shopper I can view a list of events so that I can see where the events are held | Must Have |
+| As an admin, I can add a venue so that new venues will be added to the page | Must Have |
+| As an admin, I can edit a venue so that I can update the details of the venue | Must Have |
+| As an admin, I can delete a venue so that I can remove venues that are closed | Must Have |
+| As a site user, I can contact the page so that I can share my ideas and questions to the site | Must Have |
+
 
 I used Trello during my development because I am used to work on that platform from earlier jobs and projects.
 
@@ -544,6 +550,14 @@ I used these libraries, frameworks and databases for this project
 - Psycopg2
 - PostgreSQL
 - Stripe
+- Django: receiver
+- Django: ResizedImageField
+- Django: CountryField
+- crispy_forms
+- Django: User
+- Django: post_save
+- Heroku
+- Code anywhere
 
 ## Features to make in The Future
 
@@ -556,8 +570,16 @@ I used these libraries, frameworks and databases for this project
 
 ## Deployment
 
-- The project are deployed to Heroku.
-- The deployment went well without any troubles or issues
+- I have the repository for the page on github.com
+- I set up all my secret keys in my env.py and put my env.py in my .gitignore to keep them hidden
+- My secret keys include django_secretKey, database_url and cloudinary_url
+- set up my debug in my env.py so that debug is true during production and false when it is live
+- I freezed all my requirements before I added, commited and pushed everything on Github
+- created an app on Heroku called Live Events
+- Configured my Config vars on Heroku which includes Database_url, Cloudinary_url, Secret_key, Stripe_pk, Stripe_sk and a port of 8000
+- Set up disablecollectstaic for my first Deployment
+- Connect Heroku to my repository on github
+- Deployed my project manually
 
 ## Credits
 

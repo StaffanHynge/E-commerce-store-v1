@@ -454,6 +454,56 @@ I've included links to social media profiles such as Instagram, LinkedIn, and Tw
   <img src="pictures/new_venue_2.png" alt="Image description">
 </details>
 
+### Header
+
+<details>
+  <summary>Header when you are a superuser</summary>
+  <img src="pictures/header_super.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Header when you are logged in</summary>
+  <img src="pictures/header_login.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Header when you are logged out</summary>
+  <img src="pictures/header_logout.png" alt="Image description">
+</details>
+
+### Security
+
+<details>
+  <summary>When you are logged out and try to go to the create page for events and venues</summary>
+  <img src="pictures/try_event_1.png" alt="Image description">
+  <img src="pictures/try_event_2.png" alt="Image description">
+  <img src="pictures/try_venue_1.png" alt="Image description">
+  <img src="pictures/try_venue_2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>When you are logged out and try to go to the edit page for events and venues</summary>
+  <img src="pictures/try_edit_event_1.png" alt="Image description">
+  <img src="pictures/try_edit_event_2.png" alt="Image description">
+  <img src="pictures/try_edit_venue_1.png" alt="Image description">
+  <img src="pictures/try_edit_venue_2.png" alt="Image description">
+</details>
+
+
+<details>
+  <summary>When you are logged out and try to go to the delete page for events and venues</summary>
+  <img src="pictures/try_delete_event_1.png" alt="Image description">
+  <img src="pictures/try_delete_event_2.png" alt="Image description">
+  <img src="pictures/try_delete_venue_1.png" alt="Image description">
+  <img src="pictures/try_delete_venue_2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>When you are write something that is not a correct url you get redirected to a 404 page</summary>
+  <img src="pictures/404.png" alt="Image description">
+
+</details>
+
 ## Validation 2
 
 > Lighthouse to check quality and performance of the page.

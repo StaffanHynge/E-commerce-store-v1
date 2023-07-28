@@ -9,7 +9,7 @@ from django.contrib.auth.mixins import (
 # Create your views here.
 
 
-class AddVenue(CreateView):
+class AddVenue(LoginRequiredMixin, CreateView):
     template_name = 'venues/add_venue.html'
     model = Venues
     form_class = VenueForm

@@ -99,6 +99,379 @@ I used Trello during my development because I am used to work on that platform f
 - Large: 1280x802
 - X-large: 1600x992
 
+### Home
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/home_small_1.png" alt="Image description">
+  <img src="pictures/home_small_2.png" alt="Image description">
+  <img src="pictures/home_small_3.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Medium</summary>
+  <img src="pictures/home_medium.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Large</summary>
+  <img src="pictures/home_large.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/home_xlarge.png" alt="Image description">
+</details>
+
+### Events
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/events_small_1.png" alt="Image description">
+  <img src="pictures/events_small_2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Medium</summary>
+  <img src="pictures/events_medium_1.png" alt="Image description">
+  <img src="pictures/events_medium_2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Large</summary>
+  <img src="pictures/events_large_1.png" alt="Image description">
+  <img src="pictures/events_large_2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/events_xlarge_1.png" alt="Image description">
+  <img src="pictures/events_xlarge_2.png" alt="Image description">
+</details>
+
+### Venues
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/venues_small_1.png" alt="Image description">
+  <img src="pictures/venues_small_2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Medium</summary>
+  <img src="pictures/venues_medium.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Large</summary>
+  <img src="pictures/venues_large.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/venues_xlarge.png" alt="Image description">
+
+</details>
+
+## Subscribe
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/subscribe_small.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Medium</summary>
+  <img src="pictures/subscribe_medium.png" alt="Image description">
+  </details>
+
+
+  <details>
+  <summary>Large</summary>
+  <img src="pictures/subscribe_large.png" alt="Image description">
+  </details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/subscribe_xlarge.png" alt="Image description">
+  </details>
+
+## Login
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/login_small.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Medium</summary>
+  <img src="pictures/login_medium.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Large</summary>
+  <img src="pictures/login_large.png" alt="Image description">
+  </details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/login_xlarge.png" alt="Image description">
+  </details>
+
+## Logout
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/signout_small.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Medium</summary>
+  <img src="pictures/signout_medium.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Large</summary>
+  <img src="pictures/signout_large.png" alt="Image description">
+  </details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/signout_xlarge.png" alt="Image description">
+  </details>
+
+## Signup
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/signup_small1.png" alt="Image description">
+    <img src="pictures/signup_small2z.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Medium</summary>
+  <img src="pictures/signup_medium.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Large</summary>
+  <img src="pictures/signup_large.png" alt="Image description">
+  </details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/signup_xlarge.png" alt="Image description">
+  </details>
+  
+## Profile
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/profile_small_1.png" alt="Image description">
+    <img src="pictures/profile_small_2.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Medium</summary>
+  <img src="pictures/profile_medium.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Large</summary>
+  <img src="pictures/profile_large.png" alt="Image description">
+  </details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/profile_xlarge.png" alt="Image description">
+  </details>
+
+  ## Create Event
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/create_event_small1.png" alt="Image description">
+    <img src="pictures/create_event_small2z.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Medium</summary>
+  <img src="pictures/create_event_medium.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Large</summary>
+  <img src="pictures/create_event_large.png" alt="Image description">
+  </details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/create_event_xlarge.png" alt="Image description">
+  </details>
+
+## Create Venue
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/create_venue_small1.png" alt="Image description">
+    <img src="pictures/create_venue_small2z.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Medium</summary>
+  <img src="pictures/create_venue_medium.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Large</summary>
+  <img src="pictures/create_venue_large.png" alt="Image description">
+  </details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/create_venue_xlarge.png" alt="Image description">
+  </details>
+  
+## Edit Event
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/edit_event_small1.png" alt="Image description">
+    <img src="pictures/edit_event_small2.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Medium</summary>
+  <img src="pictures/edit_event_medium.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Large</summary>
+  <img src="pictures/edit_event_large.png" alt="Image description">
+  </details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/edit_event_xlarge.png" alt="Image description">
+  </details>
+
+### Edit Venue
+
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/edit_venue_small1.png" alt="Image description">
+    <img src="pictures/edit_venue_small2.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Medium</summary>
+  <img src="pictures/edit_venue_medium.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Large</summary>
+  <img src="pictures/edit_venue_large.png" alt="Image description">
+  </details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/edit_venue_xlarge.png" alt="Image description">
+  </details>
+  
+## Delete Event
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/delete_event_small.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Medium</summary>
+  <img src="pictures/delete_event_medium.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Large</summary>
+  <img src="pictures/delete_event_large.png" alt="Image description">
+  </details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/delete_event_xlarge.png" alt="Image description">
+  </details>
+
+## Delete Venue
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/delete_venue_small.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Medium</summary>
+  <img src="pictures/delete_venue_medium.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Large</summary>
+  <img src="pictures/delete_venue_large.png" alt="Image description">
+  </details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/delete_venue_xlarge.png" alt="Image description">
+  </details>
+
+## Event Detail
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/event_detail_small1.png" alt="Image description">
+  <img src="pictures/event_detail_small2.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Medium</summary>
+  <img src="pictures/event_detail_medium.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Large</summary>
+  <img src="pictures/event_detail_large1.png" alt="Image description">
+    <img src="pictures/event_detail_large2.png" alt="Image description">
+  </details>
+
+<details>
+  <summary>Xlarge</summary>
+ <img src="pictures/event_detail_xlarge1.png" alt="Image description">
+  <img src="pictures/event_detail_xlarge2.png" alt="Image description">
+  </details>
+
+## Venue Detail
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/venue_detail_small.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Medium</summary>
+  <img src="pictures/venue_detail_medium.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Large</summary>
+  <img src="pictures/venue_detail_large.png" alt="Image description">
+  </details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/venue_detail_xlarge.png" alt="Image description">
+  </details>
+
+  
+  
 ## SEO
 
 The purpose of my site is to provide small businesses with an easy way to publish their events and reach their target audience. To generate ideas and gauge the search volume and competition of keywords related to events, I used Google Autosearch and Wordtracker. After researching and analyzing the results, I selected the keywords that were most relevant to my site's purpose.

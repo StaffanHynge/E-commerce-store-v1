@@ -5,12 +5,12 @@
 {% block content %}
 <br>
 <br>
-<h1 class="text-center p-2 d-block">Your bag</h1>
-<div class="container-fluid">
+<h1 class="text-center p-2 d-block">Shopping bag</h1>
+<h4 class="text-center p-2 d-block"><strong>Total Price:</strong> ${{ total }}</h4>
     {% if bag_items %}
-    <div class="row justify-content-center">
+    <div class="container d-flex flex-row flex-wrap justify-content-center">
         {% for item in bag_items %}
-        <div class="col-md-4">
+        
             <div class="card m-3" style="width: 18rem;">
                 <div class="card-body">
                     <h4 class="card-title"><em>{{ item.event.name }}</em></h4>
@@ -18,34 +18,42 @@
                     <p class="card-text"><strong>Date:</strong> {{ item.event.date }}</p>
                     <p class="card-text"><strong>Time:</strong> {{ item.event.time }}</p>
                     <p class="card-text"><strong>Price:</strong> ${{ item.event.price }}</p>
-                    <p class="my-0"><strong>Location:</strong> {{ item.event.location }}</p>
-                    <p class="my-0"><strong>Tickets:</strong> {{ item.quantity }}</p>
-                    <p class="my-0"><strong>Grand Total:</strong> ${{ total }}</p>
-                    <a class="remove-item text-danger btn btn-black rounded-0 btn-lg" id="remove_{{ item.item_id }}">
+                    <p class="card-text"><strong>Location:</strong> {{ item.event.location }}</p>
+                    
+                    <p class="card-text card-next"><strong>Tickets: {{ item.quantity }}</strong>
+                    <a class="remove-item text-danger btn-sm btn-black rounded-0" id="remove_{{ item.item_id }}">
                         <span class="text-uppercase">Delete</span>
                     </a>
+                    </p>
                 </div>
             </div>
-        </div>
         {% endfor %}
     </div>
-</div>
-
+    
 <div class="card-footer text-center">
-    <a href="{% url 'event_list' %}" class="btn btn-warning float-left">Events</a>
-    <a href="{% url 'checkout' %}" class="btn btn-danger float-right">Payment</a>
+    <a href="{% url 'event_list' %}" class="btn btn-info float-left"><span class="icon">
+        <i class="fas fa-chevron-left"></i>
+    </span>Events</a>
+    <a href="{% url 'checkout' %}" class="btn btn-success float-right">Pay 
+    <span class="icon">
+        <i class="fa-solid fa-credit-card"></i>
+    </span>
+    </a>
 </div>
 
     
 
     {% else %}
-    <p class="lead mb-5">Your bag is empty.</p>
+   
+    <p class="lead mb-5 text-center">Your bag is empty.</p>
+    <div class="text-center">
     <a href="{% url 'event_list' %}" class="btn btn-outline-black rounded-0 btn-lg">
         <span class="icon">
             <i class="fas fa-chevron-left"></i>
         </span>
-        <span class="text-uppercase">Keep Shopping</span>
+        <span class="text-uppercase ">Keep Shopping</span>
     </a>
+    </div>
 </div>
 {% endif %}
 {% endblock %}

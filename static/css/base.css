@@ -168,6 +168,14 @@ footer {
     align-items: center;
 }
 
+/* Bag */
+.card-next {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 @media (max-width: 650px) {
     footer {
         display: none;

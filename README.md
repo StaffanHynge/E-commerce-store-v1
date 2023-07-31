@@ -173,7 +173,52 @@ I used Trello during my development because I am used to work on that platform f
 
 </details>
 
-## Subscribe
+### Bag 
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/bag_small1.png" alt="Image description">
+  <img src="pictures/bag_small2.png" alt="Image description">
+  <img src="pictures/bag_small3.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Medium</summary>
+  <img src="pictures/bag_medium1.png" alt="Image description">
+  <img src="pictures/bag_medium2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Large</summary>
+  <img src="pictures/bag_large.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/bag_xlarge.png" alt="Image description">
+
+### Empty Bag
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/bag_empty_small.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Medium</summary>
+  <img src="pictures/bag_empty_medium.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Large</summary>
+  <img src="pictures/bag_empty_large.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/bag_empty_xlarge.png" alt="Image description">
+
+### Subscribe
 
 <details>
   <summary>Small</summary>
@@ -196,7 +241,7 @@ I used Trello during my development because I am used to work on that platform f
   <img src="pictures/subscribe_xlarge.png" alt="Image description">
   </details>
 
-## Login
+### Login
 
 <details>
   <summary>Small</summary>
@@ -218,7 +263,7 @@ I used Trello during my development because I am used to work on that platform f
   <img src="pictures/login_xlarge.png" alt="Image description">
   </details>
 
-## Logout
+### Logout
 
 <details>
   <summary>Small</summary>
@@ -240,7 +285,7 @@ I used Trello during my development because I am used to work on that platform f
   <img src="pictures/signout_xlarge.png" alt="Image description">
   </details>
 
-## Signup
+### Signup
 
 <details>
   <summary>Small</summary>
@@ -263,7 +308,7 @@ I used Trello during my development because I am used to work on that platform f
   <img src="pictures/signup_xlarge.png" alt="Image description">
   </details>
   
-## Profile
+### Profile
 
 <details>
   <summary>Small</summary>
@@ -286,7 +331,7 @@ I used Trello during my development because I am used to work on that platform f
   <img src="pictures/profile_xlarge.png" alt="Image description">
   </details>
 
-  ## Create Event
+  ### Create Event
 
 <details>
   <summary>Small</summary>
@@ -309,7 +354,7 @@ I used Trello during my development because I am used to work on that platform f
   <img src="pictures/create_event_xlarge.png" alt="Image description">
   </details>
 
-## Create Venue
+### Create Venue
 
 <details>
   <summary>Small</summary>
@@ -332,7 +377,7 @@ I used Trello during my development because I am used to work on that platform f
   <img src="pictures/create_venue_xlarge.png" alt="Image description">
   </details>
   
-## Edit Event
+### Edit Event
 
 <details>
   <summary>Small</summary>
@@ -379,7 +424,7 @@ I used Trello during my development because I am used to work on that platform f
   <img src="pictures/edit_venue_xlarge.png" alt="Image description">
   </details>
   
-## Delete Event
+### Delete Event
 
 <details>
   <summary>Small</summary>
@@ -401,7 +446,7 @@ I used Trello during my development because I am used to work on that platform f
   <img src="pictures/delete_event_xlarge.png" alt="Image description">
   </details>
 
-## Delete Venue
+### Delete Venue
 
 <details>
   <summary>Small</summary>
@@ -423,7 +468,7 @@ I used Trello during my development because I am used to work on that platform f
   <img src="pictures/delete_venue_xlarge.png" alt="Image description">
   </details>
 
-## Event Detail
+### Event Detail
 
 <details>
   <summary>Small</summary>
@@ -448,7 +493,7 @@ I used Trello during my development because I am used to work on that platform f
   <img src="pictures/event_detail_xlarge2.png" alt="Image description">
   </details>
 
-## Venue Detail
+### Venue Detail
 
 <details>
   <summary>Small</summary>

@@ -515,7 +515,13 @@ I used Trello during my development because I am used to work on that platform f
   <img src="pictures/venue_detail_xlarge.png" alt="Image description">
   </details>
 
-  
+## Design
+
+- I have chosen to have a footer and a header available all the time because it is important for the visitor to be able to navigate easy all the time. I have chosen words on the header to easy describe what the links do and go to so the user easy can understand and icons for my socialmedia because the icons are well known and designed well.  
+- For my homepage I have chosen to use images to describe what the page are for and I think the images are beautiful and fits well on my page. 
+- The event/venue/bag pages uses card attributes for the items because it packages the information well and makes the layout easy to follow on both small and large screen sizes. 
+- I have a minmal approach on my site because I want only the keywords and the information to be easy to see and understand. 
+- My color is light blue/turqouise because I want to have a light visual on my site because that is what I like myself and I wanted to have a background that I personally have not seen before to make the page stand out compared to others. 
   
 ## SEO
 
@@ -557,13 +563,43 @@ This is how I implemented some of these keywords on my site.
 
 It's important to note that since the content on my site will vary depending on the events being showcased, SEO is an ongoing and continuous effort that requires responsiveness to adapting content to match what users are searching for.
 
-## Marketing
+### Marketing
 
-As a contributor to various types of musicians and private entrepreneurs, my focus is on helping them reach out to their existing fans and attract new ones. To build a strong foundation, I plan to start locally, leveraging my own network and encouraging users to create their own events tailored to their needs. This will not only drive traffic to my site, but will also generate organic growth over time.
+I first started to ask questions to myself.
+Why would I want to go to this homepage?
+I am interested to go to different types of events with my friends which includes concerts, shows and nightlife activities.
 
-To achieve this goal, I will primarily rely on unpaid social media marketing, utilizing my own contacts to help spread the word and reach a wider audience. This approach will not only be cost-effective, but will also allow for a more personal and authentic connection with users.
+How could you reach out to me?
+My first step would be to google the type of activity I am interested in and the then I would reach out to social media to find different platforms for activities and events.
 
-By fostering a community of users who are actively creating and attending events through my platform, I can establish the site as a go-to resource for discovering and participating in local events. Over time, this can lead to increased brand recognition, stronger relationships with users, and greater opportunities for monetization and growth.
+What are the business goals?
+The bussiness goal is to contribute the best type of events for our users.
+
+How do similar businesses reach out to their customers?
+What I did find was a lot of videos and images on different type of events.
+The customer wants to know what type of experience they will get and an image or a video will describe that experience in a fine way.
+
+## Personas
+
+Based on this I created three different personas that would be present on my site.
+
+1. 20-25 year old who wants to have fun times with their friends. Uses social media to communicate and to spend time. Want to find new thrilling events and concerts.
+
+2. 35-40 year old mother with two kids. Want to find familyfriendly activities for herself and her children.
+
+3. 40-year old man. A musicexpert who loves to go to concerts. Has a lot of vinyls at home and uses his free time to look up artists and shows.
+
+Now I need to target these personas with different types of strategies.
+
+## Strategies
+
+- Content Marketing: Have a gallerypage on the website and on socialmedia to be able to show content to our visitors.
+  - This will give my customers a clear picture of what types of activities and experiences my page will give them. It also gives me an advantage that I can target the content based on what type of events we have present
+- Organic Social Media Marketing: On our socialmedia we will have short videos and images to show our events.
+  - This will give my customers an alternative to search and see the types of activities and experiences my page will provide. I am directly targeting my first persona with this strategy. It also gives me an advantage that I can target the content based on what type of events we have present
+- Paid Webmarketing: Paid webmarketing because that some of our personas will use google when they want to find something to do.
+  - This is important for all of my personas but will directly target my second persona.
+
 
 ### Facebook Page
 

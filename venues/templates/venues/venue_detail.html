@@ -9,18 +9,22 @@
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title"><em>{{ venue.name }}</em></h4>
-                <img src="{{ venue.image.url }}" class="card-img-top">
+                <img src="{{ venue.image.url }}" class="card-img-top" alt="Image on venue">
                 <h6><strong>About:</strong></h6>
                 <p class="card-text">{{ venue.address }}</p>
                 <p class="card-text"><strong>Country:</strong> {{ venue.country }}</p>
                 <p class="card-text"><strong>City:</strong> {{ venue.city }}</p>
-
+        
+    
                 {% if request.user == venue.user %}
                 <div class="text-center">
                     <a href="{% url 'edit_venue' venue.id %}" class="btn btn-warning float-left">Edit</a>
                     <a href="{% url 'delete_venue' venue.id %}" class="btn btn-danger float-right">Delete</a>
                 </div>
                 {% endif %}
-
+            </div>
+        </div>
+    </div>
+</div>
 
 {% endblock %}

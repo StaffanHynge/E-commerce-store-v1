@@ -9,7 +9,7 @@
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title"><em>{{ event.name }}</em></h4>
-                <img src="{{ event.image.url }}" class="card-img-top">
+                <img src="{{ event.image.url }}" class="card-img-top" alt="Image on Event">
                 <h6><strong>About:</strong></h6>
                 <p class="card-text">{{ event.description|safe }}</p>
                 <p class="card-text"><strong>Date:</strong> {{ event.date }}</p>

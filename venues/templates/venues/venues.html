@@ -13,7 +13,7 @@
         <div class="card-body">
             <h4 class="card-title"><strong>{{ venue.name }}</strong></h4>
             <h5 class="card-title"><em>{{ venue.address }}</em></h5>
-            <img src="{{ venue.image.url }}" class="card-img-top fixed-height">
+            <img src="{{ venue.image.url }}" class="card-img-top fixed-height" alt="Image on Venue">
             <a href="{% url 'venue_detail' venue.id %}" class="btn btn-primary">See More</a>
         </div>
     </div>

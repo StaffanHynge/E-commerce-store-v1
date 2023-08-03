@@ -521,7 +521,7 @@ I used Trello during my development because I am used to work on that platform f
 - For my homepage I have chosen to use images to describe what the page are for and I think the images are beautiful and fits well on my page. 
 - The event/venue/bag pages uses card attributes for the items because it packages the information well and makes the layout easy to follow on both small and large screen sizes. 
 - I have a minmal approach on my site because I want only the keywords and the information to be easy to see and understand. 
-- My color is light blue/turqouise because I want to have a light visual on my site because that is what I like myself and I wanted to have a background that I personally have not seen before to make the page stand out compared to others. 
+- My color is light blue/turqouise because I want to have a light visual on my site because that is what I like myself and I wanted to have a background that I personally have not seen before to make the page stand out compared to others.
   
 ## SEO
 
@@ -985,11 +985,98 @@ I've included links to social media profiles such as Instagram, LinkedIn, and Tw
 </details>
 
 > Html Validator was used to check the code for html.
-> All the code passes with no errors or warnings except for the the use of jinja templates and a meta tag.
+> All the code passes with no errors or warnings except for 2 warnings.
+> The type attribute is not neccessary in a script tag
+> An alt tag is missing when you choose a flag because of django countries
 
 <details>
-  <summary>Html</summary>
-  <img src="pictures/html.png" alt="Image description">
+  <summary>home</summary>
+  <img src="pictures/home-html.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Events</summary>
+  <img src="pictures/events-html.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Create Event</summary>
+  <img src="pictures/add-event-html.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Edit Event</summary>
+  <img src="pictures/edit-event-html.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Delete Event</summary>
+  <img src="pictures/delete-event-html.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Event Detail</summary>
+  <img src="pictures/event-detail-html.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Venues</summary>
+  <img src="pictures/venue-html.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Create Venue</summary>
+  <img src="pictures/add-venue-html.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Edit Venue</summary>
+  <img src="pictures/edit-venue-html.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Delete Venue</summary>
+  <img src="pictures/delete-venue-html.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Venue Detail</summary>
+  <img src="pictures/venue-detail-html.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Bag</summary>
+  <img src="pictures/bag-html.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Subscribe</summary>
+  <img src="pictures/subscribe-html.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Contact Us</summary>
+  <img src="pictures/contact-us-html.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Profile</summary>
+  <img src="pictures/profile-html.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Login</summary>
+  <img src="pictures/login-html.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Logout</summary>
+  <img src="pictures/logout-html.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Sign Up</summary>
+  <img src="pictures/signup-html.png" alt="Image description">
 </details>
 
 > Css validator was used to check the code for my css.

@@ -6,3 +6,7 @@ def index(request):
 
 def subscribe(request):
     return render(request, 'home/subscribe.html')
+
+def gallery(request):
+    return render(request, 'home/gallery.html')
+

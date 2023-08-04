@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block page_header %}
+{% endblock %}
+{% block content %}
+<div class="photo-container">
+    <div class="photo-header">
+        <h1 class="text-center p-2 d-block">Gallery</h1>
+    </div>
+</div>
+
+<div class="photo-container">
+<div class="photo-box">
+    <div class="photo-col">
+        <img src="{% static 'gallery/galleri1.jpg' %}" alt="Gallery Image">
+        <img src="{% static 'gallery/galleri2.jpg' %}" alt="">
+        <img src="{% static 'gallery/galleri3.jpg' %}" alt="">
+        <img src="{% static 'gallery/galleri4.jpg' %}" alt="">
+        <img src="{% static 'gallery/galleri5.jpg' %}" alt="">
+        <img src="{% static 'gallery/galleri16.jpg' %}" alt="">
+    </div>
+    <div class="photo-col">
+        <img src="{% static 'gallery/galleri6.jpg' %}" alt="">
+        <img src="{% static 'gallery/galleri7.jpg' %}" alt="">
+        <img src="{% static 'gallery/galleri8.jpg' %}" alt="">
+        <img src="{% static 'gallery/galleri9.jpg' %}" alt="">
+        <img src="{% static 'gallery/galleri10.jpg' %}" alt="">
+    </div>
+    <div class="photo-col">
+        <img src="{% static 'gallery/galleri11.jpg' %}" alt="">
+        <img src="{% static 'gallery/galleri12.jpg' %}" alt="">
+        <img src="{% static 'gallery/galleri13.jpg' %}" alt="">
+        <img src="{% static 'gallery/galleri14.jpg' %}" alt="">
+        <img src="{% static 'gallery/galleri15.jpg' %}" alt="">
+    </div>
+
+
+</div>
+</div>
+
+{% endblock %}

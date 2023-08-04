@@ -10,3 +10,6 @@ def subscribe(request):
 def gallery(request):
     return render(request, 'home/gallery.html')
 
+def test(request):
+    return render(request, 'home/test.html')
+

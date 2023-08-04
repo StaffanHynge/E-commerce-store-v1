@@ -218,6 +218,31 @@ I used Trello during my development because I am used to work on that platform f
   <summary>Xlarge</summary>
   <img src="pictures/bag_empty_xlarge.png" alt="Image description">
 
+###  Gallery
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/gallery_small1.png" alt="Image description">
+  <img src="pictures/gallery_small2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Medium</summary>
+  <img src="pictures/gallery_medium1.png" alt="Image description">
+  <img src="pictures/gallery_medium2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Large</summary>
+  <img src="pictures/gallery_large1.png" alt="Image description">
+  <img src="pictures/gallery_large2.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/gallery_xlarge1.png" alt="Image description">
+  <img src="pictures/gallery_xlarge2.png" alt="Image description">
+
 ### Subscribe
 
 <details>
@@ -513,6 +538,29 @@ I used Trello during my development because I am used to work on that platform f
 <details>
   <summary>Xlarge</summary>
   <img src="pictures/venue_detail_xlarge.png" alt="Image description">
+  </details>
+
+  ### Checkout
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/checkout_small1.png" alt="Image description">
+  <img src="pictures/checkout_small2.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Medium</summary>
+  <img src="pictures/checkout_medium.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Large</summary>
+  <img src="pictures/checkout_large.png" alt="Image description">
+  </details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/checkout_xlarge.png" alt="Image description">
   </details>
 
 ## Design
@@ -1077,6 +1125,16 @@ I've included links to social media profiles such as Instagram, LinkedIn, and Tw
 <details>
   <summary>Sign Up</summary>
   <img src="pictures/signup-html.png" alt="Image description">
+</details>
+
+<details>
+  <summary>Gallery</summary>
+  <img src="pictures/galleryhtml.png" alt="Image description">
+</details>
+
+<details>
+  <summary>checkout</summary>
+  <img src="pictures/checkouthtml.png" alt="Image description">
 </details>
 
 > Css validator was used to check the code for my css.

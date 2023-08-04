@@ -30,6 +30,8 @@
                     {{ order_form.full_name | as_crispy_field }}
                     {{ order_form.email | as_crispy_field }}
                     {{ order_form.phone_number | as_crispy_field }}
+                </fieldset>
+                <fieldset class="rounded px-3 mb-5">
                     <legend class="fieldset-label small text-black px-2 w-auto">Payment</legend>
                     <!-- A Stripe card element will go here -->
                     <div class="mb-3" id="card-element"></div>
@@ -47,6 +49,7 @@
         </div>
     </div>
     {% for item in bag_items %}
+    <table>
     <tr>
         <td class="p-3 w-25">
             <img class="img-fluid rounded" src="{{ item.event.image.url }}" alt="">
@@ -58,8 +61,8 @@
             <p class="my-0">Price: ${{ item.event.price }}</p>
             <p class="my-0">Total: ${{ total }}</p>
         </td>
-        </td>
     </tr>
+    </table>
 
     {% endfor %}
 </div>
@@ -71,7 +74,7 @@
 {{ stripe_public_key|json_script:"id_stripe_public_key" }}
 {{ client_secret|json_script:"id_client_secret" }}
 <!--<script src="#"></script>-->
-<script type="text/javascript">
+<script>
     var stripePublicKey = $('#id_stripe_public_key').text().slice(1, -1);
     var clientSecret = $('#id_client_secret').text().slice(1, -1);
     var stripe = Stripe(stripePublicKey);

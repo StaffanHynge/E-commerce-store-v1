@@ -591,6 +591,28 @@ I used Trello during my development because I am used to work on that platform f
   <img src="pictures/checkout_xlarge.png" alt="Image description">
   </details>
 
+  ### 404
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/404_small.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Medium</summary>
+  <img src="pictures/404_medium.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Large</summary>
+  <img src="pictures/404_large.png" alt="Image description">
+  </details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/404_xlarge.png" alt="Image description">
+  </details>
+
 ## Design
 
 - I have chosen to have a footer and a header available all the time because it is important for the visitor to be able to navigate easy all the time. I have chosen words on the header to easy describe what the links do and go to so the user easy can understand and icons for my socialmedia because the icons are well known and designed well.  
@@ -1163,6 +1185,11 @@ I've included links to social media profiles such as Instagram, LinkedIn, and Tw
 <details>
   <summary>checkout</summary>
   <img src="pictures/checkouthtml.png" alt="Image description">
+</details>
+
+<details>
+  <summary>404</summary>
+  <img src="pictures/404-html.png" alt="Image description">
 </details>
 
 > Css validator was used to check the code for my css.

@@ -17,7 +17,7 @@ Welcome to our event site, where unforgettable experiences await! Whether you're
 
 ## models
 
-I have created 4 models for this project. This is Events and looks like this
+I have created 6 models for this project. This is Events and looks like this
 | | |
 | ------ | ------ |
 | user | ForeignKey |
@@ -54,6 +54,34 @@ This is Profile and looks like this
 | image | ResizedImageField |
 | about | CharField |
 | real_name | CharField |
+
+This is Venues and looks like this
+| | |
+| ------ | ------ |
+| user | ForeignKey |
+| address | CharField |
+| phone_number | CharField |
+| home_page | URLField |
+| social_media | URLField |
+| city | CharField |
+| country | CountryField |
+| name | CharField |
+| image | ResizedImagedField |
+
+This is Contact and looks like this
+| | |
+| ------ | ------ |
+| name | CharField |
+| image | EmailField |
+| phone_number | CharField |
+| Subject | TextField |
+
+Here is an image of the ERD Relationship that I created in DrawSQL
+
+<details>
+  <summary>Entity Relationship Diagram</summary>
+  <img src="pictures/drawSQL.png" alt="Image description">
+</details>
 
 ## User Stories
 

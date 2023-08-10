@@ -9,32 +9,92 @@
 
 <url>
   <loc>https://live-events-9e71b07dd75e.herokuapp.com/</loc>
-  <lastmod>2023-07-01T16:27:54+00:00</lastmod>
+  <lastmod>2023-08-10T09:28:30+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://live-events-9e71b07dd75e.herokuapp.com/events/eventlist/</loc>
-  <lastmod>2023-07-01T16:27:54+00:00</lastmod>
+  <lastmod>2023-08-10T09:28:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://live-events-9e71b07dd75e.herokuapp.com/bag/</loc>
-  <lastmod>2023-07-01T16:27:54+00:00</lastmod>
+  <lastmod>2023-08-10T09:28:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://live-events-9e71b07dd75e.herokuapp.com/subscribe/</loc>
+  <lastmod>2023-08-10T09:28:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://live-events-9e71b07dd75e.herokuapp.com/venues/venuelist/</loc>
+  <lastmod>2023-08-10T09:28:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://live-events-9e71b07dd75e.herokuapp.com/gallery/</loc>
+  <lastmod>2023-08-10T09:28:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://live-events-9e71b07dd75e.herokuapp.com/accounts/login/</loc>
-  <lastmod>2023-07-01T16:27:54+00:00</lastmod>
+  <lastmod>2023-08-10T09:28:30+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://live-events-9e71b07dd75e.herokuapp.com/events/3/</loc>
+  <lastmod>2023-08-10T09:28:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://live-events-9e71b07dd75e.herokuapp.com/events/4/</loc>
+  <lastmod>2023-08-10T09:28:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://live-events-9e71b07dd75e.herokuapp.com/events/5/</loc>
+  <lastmod>2023-08-10T09:28:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://live-events-9e71b07dd75e.herokuapp.com/events/6/</loc>
+  <lastmod>2023-08-10T09:28:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://live-events-9e71b07dd75e.herokuapp.com/events/7/</loc>
+  <lastmod>2023-08-10T09:28:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://live-events-9e71b07dd75e.herokuapp.com/events/8/</loc>
+  <lastmod>2023-08-10T09:28:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://live-events-9e71b07dd75e.herokuapp.com/venues/3/</loc>
+  <lastmod>2023-08-10T09:28:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://live-events-9e71b07dd75e.herokuapp.com/venues/4/</loc>
+  <lastmod>2023-08-10T09:28:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://live-events-9e71b07dd75e.herokuapp.com/venues/5/</loc>
+  <lastmod>2023-08-10T09:28:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://live-events-9e71b07dd75e.herokuapp.com/venues/6/</loc>
+  <lastmod>2023-08-10T09:28:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://live-events-9e71b07dd75e.herokuapp.com/accounts/signup/</loc>
-  <lastmod>2023-07-01T16:27:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://live-events-9e71b07dd75e.herokuapp.com/events/1/</loc>
-  <lastmod>2023-07-01T16:27:54+00:00</lastmod>
+  <lastmod>2023-08-10T09:28:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 

@@ -187,7 +187,7 @@ I used Trello during my development because I am used to work on that platform f
 
 <details>
   <summary>Medium</summary>
-  <img src="pictures/venues_medium.png" alt="Image description">
+  <img src="pictures/ven_med.png" alt="Image description">
 </details>
 
 <details>
@@ -536,7 +536,7 @@ I used Trello during my development because I am used to work on that platform f
 
   <details>
   <summary>Large</summary>
-  <img src="pictures/event_detail_large1.png" alt="Image description">
+  <img src="pictures/event_detail_large_1.png" alt="Image description">
     <img src="pictures/event_detail_large2.png" alt="Image description">
   </details>
 
@@ -620,6 +620,7 @@ I used Trello during my development because I am used to work on that platform f
 - The event/venue/bag pages uses card attributes for the items because it packages the information well and makes the layout easy to follow on both small and large screen sizes. 
 - I have a minmal approach on my site because I want only the keywords and the information to be easy to see and understand. 
 - My color is light blue/turqouise because I want to have a light visual on my site because that is what I like myself and I wanted to have a background that I personally have not seen before to make the page stand out compared to others.
+- I chose a font that is easy to read, with a friendly and inviting shape, ensuring clarity and creating a visually appealing experience for visitors
   
 ## SEO
 
@@ -662,41 +663,38 @@ This is how I implemented some of these keywords on my site.
 It's important to note that since the content on my site will vary depending on the events being showcased, SEO is an ongoing and continuous effort that requires responsiveness to adapting content to match what users are searching for.
 
 ### Marketing
+I creates three different avatars so I could learn to know some of my target auddiences and approach them in a good way
 
-I first started to ask questions to myself.
-Why would I want to go to this homepage?
-I am interested to go to different types of events with my friends which includes concerts, shows and nightlife activities.
+#### Avatar 1 Young Professional/Student
 
-How could you reach out to me?
-My first step would be to google the type of activity I am interested in and the then I would reach out to social media to find different platforms for activities and events.
+  - Location: Lives in a small city
+  - Age: 18-25
+  - Career: Studies/Young Professional
+  - Family: None
+  - Motivation to buy: Wants to have fun times with friends
+  - Buying concerns: Limited budget, needs to save money for events
+- Media: Social Media, YouTube
+- Approach: For this avatar, organic social media marketing would be effective. Focus on creating engaging content such as short videos and images showcasing your events. Advertise the event well in advance and offer packages like early bird tickets to incentivize early purchases. Utilize platforms like Facebook, Instagram, and YouTube to reach this audience.
 
-What are the business goals?
-The bussiness goal is to contribute the best type of events for our users.
+#### Avatar 2 Wife with 2 kids
+- Lives in a medium-sized city
+- Age: 35-40
+- Career: Teacher
+- Family: Parents to kids who are 7-12 years old
+- Motivation to buy: Wants to spend time and activities with their family
+- Buying concerns: Limited budget due to family and household expenses
+- Media: Instagram, News sites, Clothes sites, Facebook, Television
+- Approach: Display marketing banners on relevant websites such as news sites and clothes sites, with a clear call to action. Target parents with engaging visuals and messaging that highlights the family-friendly nature of our events. Utilize platforms like Instagram, Facebook, and television advertising to reach this audience.
 
-How do similar businesses reach out to their customers?
-What I did find was a lot of videos and images on different type of events.
-The customer wants to know what type of experience they will get and an image or a video will describe that experience in a fine way.
-
-## Personas
-
-Based on this I created three different personas that would be present on my site.
-
-1. 20-25 year old who wants to have fun times with their friends. Uses social media to communicate and to spend time. Want to find new thrilling events and concerts.
-
-2. 35-40 year old mother with two kids. Want to find familyfriendly activities for herself and her children.
-
-3. 40-year old man. A musicexpert who loves to go to concerts. Has a lot of vinyls at home and uses his free time to look up artists and shows.
-
-Now I need to target these personas with different types of strategies.
-
-## Strategies
-
-- Content Marketing: Have a gallerypage on the website and on socialmedia to be able to show content to our visitors.
-  - This will give my customers a clear picture of what types of activities and experiences my page will give them. It also gives me an advantage that I can target the content based on what type of events we have present
-- Organic Social Media Marketing: On our socialmedia we will have short videos and images to show our events.
-  - This will give my customers an alternative to search and see the types of activities and experiences my page will provide. I am directly targeting my first persona with this strategy. It also gives me an advantage that I can target the content based on what type of events we have present
-- Paid Webmarketing: Paid webmarketing because that some of our personas will use google when they want to find something to do.
-  - This is important for all of my personas but will directly target my second persona.
+#### Avatar 3 Music Enthusiast
+- Location: Lives in a large city
+- Age: 55-60
+- Career: Scrum Master in a tech company
+- Family: Wife and adult kids
+- Motivation to buy: Interested in music and has a collection of vinyl records
+- Buying concerns: Picky about choices, seeks the best experiences
+- Media: Facebook, News sites, Television
+- Approach: Paid search marketing would be effective for this avatar. Create targeted ads that appear on platforms like Facebook and news sites, focusing on the music aspect of our events. Highlight unique experiences and the quality of the performances. Consider partnering with local record stores or music blogs to reach this audience.
 
 
 ### Facebook Page
@@ -836,6 +834,50 @@ I've included links to social media profiles such as Instagram, LinkedIn, and Tw
 <details>
   <summary>admin.py</summary>
   <img src="pictures/profileadmin.png" alt="Image description">
+</details>
+
+### Venues
+
+<details>
+  <summary>urls.py</summary>
+  <img src="pictures/ven_url.png" alt="Image description">
+</details>
+
+<details>
+  <summary>views.py</summary>
+  <img src="pictures/ven_views.png" alt="Image description">
+</details>
+
+<details>
+  <summary>models.py</summary>
+  <img src="pictures/ven_model.png" alt="Image description">
+</details>
+
+<details>
+  <summary>forms.py</summary>
+  <img src="pictures/ven_form.png" alt="Image description">
+</details>
+
+### Contact
+
+<details>
+  <summary>urls.py</summary>
+  <img src="pictures/con_url.png" alt="Image description">
+</details>
+
+<details>
+  <summary>views.py</summary>
+  <img src="pictures/con_views.png" alt="Image description">
+</details>
+
+<details>
+  <summary>models.py</summary>
+  <img src="pictures/con_model.png" alt="Image description">
+</details>
+
+<details>
+  <summary>forms.py</summary>
+  <img src="pictures/con_form.png" alt="Image description">
 </details>
 
 ## Test

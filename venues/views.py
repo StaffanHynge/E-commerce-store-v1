@@ -1,5 +1,7 @@
 from django.shortcuts import render
-from django.views.generic import CreateView, ListView, DetailView, DeleteView, UpdateView
+from django.views.generic import (
+    CreateView, ListView, DetailView, DeleteView, UpdateView
+)
 from .models import Venues
 from .forms import VenueForm
 from django.contrib.auth.mixins import (
@@ -40,6 +42,7 @@ class EditVenue(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
 
     def test_func(self):
         return self.request.user == self.get_object().user
+
 
 class DeleteVenue(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     model = Venues

@@ -10,11 +10,8 @@ def subscribe(request):
 def gallery(request):
     return render(request, 'home/gallery.html')
 
-def test1(request):
-    return render(request, 'home/test.html')
 
-def error(request):
-    return render(request, 'home/error.html')
+
 
 
 

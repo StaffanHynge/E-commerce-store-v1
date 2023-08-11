@@ -3,7 +3,7 @@ from django_countries.fields import CountryField
 from django.contrib.auth.models import User
 from django_resized import ResizedImageField
 
-
+''' Model for creating a venue '''
 class Venues(models.Model):
     user = models.ForeignKey(User, related_name='venueowner',
                              on_delete=models.CASCADE)

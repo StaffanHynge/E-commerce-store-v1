@@ -3,7 +3,7 @@ from djrichtextfield.models import RichTextField
 from django.db import models
 from django.contrib.auth.models import User
 
-
+''' model to create an event '''
 class Events(models.Model):
     user = models.ForeignKey(
         User, related_name='event_owner', on_delete=models.CASCADE)

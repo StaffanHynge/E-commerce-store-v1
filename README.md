@@ -591,6 +591,28 @@ I used Trello during my development because I am used to work on that platform f
   <img src="pictures/checkout_xlarge.png" alt="Image description">
   </details>
 
+  ### Checkout Success
+
+<details>
+  <summary>Small</summary>
+  <img src="pictures/success_small.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Medium</summary>
+  <img src="pictures/success_medium.png" alt="Image description">
+  </details>
+
+  <details>
+  <summary>Large</summary>
+  <img src="pictures/success_large.png" alt="Image description">
+  </details>
+
+<details>
+  <summary>Xlarge</summary>
+  <img src="pictures/success_xlarge.png" alt="Image description">
+  </details>
+
   ### 404
 
 <details>

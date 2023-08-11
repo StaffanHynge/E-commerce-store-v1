@@ -696,7 +696,7 @@ I creates three different avatars so I could learn to know some of my target aud
   - Motivation to buy: Wants to have fun times with friends
   - Buying concerns: Limited budget, needs to save money for events
 - Media: Social Media, YouTube
-- Approach: For this avatar, organic social media marketing would be effective. Focus on creating engaging content such as short videos and images showcasing your events. Advertise the event well in advance and offer packages like early bird tickets to incentivize early purchases. Utilize platforms like Facebook, Instagram, and YouTube to reach this audience.
+- Approach: For this avatar, organic social media marketing would be effective. Focus on creating engaging content such as short videos and images showcasing our events. Advertise the event well in advance and offer packages like early bird tickets to incentivize early purchases. Utilize platforms like Facebook, Instagram, and YouTube to reach this audience.
 
 #### Avatar 2 Wife with 2 kids
 - Lives in a medium-sized city

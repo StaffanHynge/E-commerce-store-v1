@@ -15,7 +15,7 @@ Welcome to our event site, where unforgettable experiences await! Whether you're
 - Create, edit and delete a venue
 - Contact the site for questions and ideas
 
-## models
+## Models
 
 I have created 6 models for this project. This is Events and looks like this
 | | |
@@ -684,6 +684,9 @@ This is how I implemented some of these keywords on my site.
 
 It's important to note that since the content on my site will vary depending on the events being showcased, SEO is an ongoing and continuous effort that requires responsiveness to adapting content to match what users are searching for.
 
+### E-commerce Business Model
+My business model is B2C(business to customer)
+
 ### Marketing
 I creates three different avatars so I could learn to know some of my target auddiences and approach them in a good way
 
@@ -697,6 +700,7 @@ I creates three different avatars so I could learn to know some of my target aud
   - Buying concerns: Limited budget, needs to save money for events
 - Media: Social Media, YouTube
 - Approach: For this avatar, organic social media marketing would be effective. Focus on creating engaging content such as short videos and images showcasing our events. Advertise the event well in advance and offer packages like early bird tickets to incentivize early purchases. Utilize platforms like Facebook, Instagram, and YouTube to reach this audience.
+- Strategy: Utilize organic social media marketing to engage with the target audience.
 
 #### Avatar 2 Wife with 2 kids
 - Lives in a medium-sized city
@@ -707,6 +711,7 @@ I creates three different avatars so I could learn to know some of my target aud
 - Buying concerns: Limited budget due to family and household expenses
 - Media: Instagram, News sites, Clothes sites, Facebook, Television
 - Approach: Display marketing banners on relevant websites such as news sites and clothes sites, with a clear call to action. Target parents with engaging visuals and messaging that highlights the family-friendly nature of our events. Utilize platforms like Instagram, Facebook, and television advertising to reach this audience.
+- Strategy: Implement display marketing on relevant websites and utilize social media and television advertising.
 
 #### Avatar 3 Music Enthusiast
 - Location: Lives in a large city
@@ -717,6 +722,7 @@ I creates three different avatars so I could learn to know some of my target aud
 - Buying concerns: Picky about choices, seeks the best experiences
 - Media: Facebook, News sites, Television
 - Approach: Paid search marketing would be effective for this avatar. Create targeted ads that appear on platforms like Facebook and news sites, focusing on the music aspect of our events. Highlight unique experiences and the quality of the performances. Consider partnering with local record stores or music blogs to reach this audience.
+- Strategy: Employ paid search marketing to target the audience interested in music.
 
 
 ### Facebook Page
@@ -1152,7 +1158,7 @@ I've included links to social media profiles such as Instagram, LinkedIn, and Tw
 > An alt tag is missing when you choose a flag because of django countries
 
 <details>
-  <summary>home</summary>
+  <summary>Home</summary>
   <img src="pictures/home-html.png" alt="Image description">
 </details>
 

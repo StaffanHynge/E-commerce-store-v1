@@ -224,6 +224,7 @@ I used Trello during my development because I am used to work on that platform f
 <details>
   <summary>Xlarge</summary>
   <img src="pictures/bag_xlarge.png" alt="Image description">
+</details>
 
 ### Empty Bag
 

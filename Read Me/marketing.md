@@ -1,5 +1,5 @@
-# Table Of Content
-- [Table Of Content](#table-of-content)
+# Table Of Contents
+- [Table Of Contents](#table-of-contents)
   - [SEO](#seo)
   - [Keywords](#keywords)
     - [Business Model](#business-model)
@@ -97,7 +97,12 @@ I created three different avatars so I could learn to know some of my target aud
 
 ### Summary
 
-Bla Bla Bla
+To effectively reach the three avatars, a combination of organic social media marketing, display marketing, and paid search marketing should be implemented.
+This means that I will create content on Social media sites that focuses on the music aspect of our events. This will affect avatars 1 and 3 and that is what I choose to prioritize to get in contact with these target audiences. 
+We will also display banners on clothes and newssites to target avatar 2.
+The use of Email marketing is also implemented to advertise how and why our customers should join our events. 
+
+With these strategies the marketing will promote and inform these audiences I have choosen to prioritize.
 
 ### Facebook Page
 
@@ -116,4 +121,6 @@ Bla Bla Bla
   <img src="pictures/subscribe2.png" alt="Image description">
 </details>
 
-I've included links to social media profiles such as Instagram, LinkedIn, and Twitter in the footer of my website. As many of the creators associated with the events I promote use social media as a means of self-promotion, I believe this addition contributes to the content, purpose, and marketing of my site.
+I've included links to social media profiles such as Facebook, Instagram, LinkedIn, and Twitter in the footer of my website. As many of the creators associated with the events I promote use social media as a means of self-promotion, I believe this addition contributes to the content, purpose, and marketing of my site.
+
+[Back to Top](#table-of-contents)

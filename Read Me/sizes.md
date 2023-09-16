@@ -1,5 +1,5 @@
-# Table Of Content
-- [Table Of Content](#table-of-content)
+# Table Of Contents
+- [Table Of Contents](#table-of-contents)
   - [Sizes](#sizes)
     - [Home](#home)
     - [Events](#events)
@@ -229,3 +229,5 @@
 | Medium | Looks Good | (<a href="pictures/404_medium.png">Medium</a>)
 | Large | Looks Good | (<a href="pictures/404_large.png">Large</a>)
 | X-large | Looks Good | (<a href="pictures/404_xlarge.png">Xlarge</a>)
+
+[Back to Top](#table-of-contents)

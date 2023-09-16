@@ -4,12 +4,16 @@
 
 Welcome to our event site, where unforgettable experiences await! Whether you're looking for a night of live music, a thrilling sports match, an immersive theater performance, or something in between, we've got you covered. Our site offers a wide variety of events to suit every taste and budget, all in one convenient location. Plus, purchasing tickets is easy and hassle-free, so you can spend less time planning and more time enjoying the excitement of the event. Join us in creating unforgettable memories at the hottest events around we can't wait to see you there!
 
+Due to the README file previously only showing the first 200 lines of the document, I have broken the larger sections out into their own files, for which I have provided links in the Table of Contents.
+
 # Table of Contents
 - [Live Events](#live-events)
 - [Table of Contents](#table-of-contents)
   - [Models](#models)
   - [User Stories](#user-stories)
   - [Design](#design)
+    - [Colour palette](#colour-palette)
+    - [Font](#font)
   - [Tech](#tech)
     - [Features to make in The Future](#features-to-make-in-the-future)
   - [Deployment](#deployment)
@@ -130,8 +134,24 @@ I used Trello during my development because I am used to work on that platform f
 - For my homepage I have chosen to use images to describe what the page are for and I think the images are beautiful and fits well on my page. 
 - The event/venue/bag pages uses card attributes for the items because it packages the information well and makes the layout easy to follow on both small and large screen sizes. 
 - I have a minmal approach on my site because I want only the keywords and the information to be easy to see and understand. 
+### Colour palette
 - My color is light blue/turqouise because I want to have a light visual on my site because that is what I like myself and I wanted to have a background that I personally have not seen before to make the page stand out compared to others.
-- I chose a font that is easy to read, with a friendly and inviting shape, ensuring clarity and creating a visually appealing experience for visitors
+These are the colors I mainly have on my website. 
+
+- hsla(173, 84%, 90%, 0.786) - #7BD6E6.:
+This color is a shade of blue with a hue of 173 degrees, saturation of 84%, lightness of 90%, and an alpha value of 0.786. It has a slightly transparent appearance, allowing the underlying elements to show through to some extent. This color can be used to create a calming and refreshing atmosphere.
+- hsla(173, 84%, 90%, 0.45) - #B3E1E1 : 
+This color is similar to the previous one, but with a lower alpha value of 0.45. It has the same hue, saturation, and lightness values, but it is more transparent. This color can be used to create subtle overlays or gradients, adding depth and visual interest.
+
+- White -  #FFF: 
+White is a classic and versatile color that represents purity, simplicity, and cleanliness. It can be used as a background color to create a minimalist and modern look, allowing other elements on your website to stand out. White also provides a sense of spaciousness and can enhance readability.
+
+- Black -  #000: Black is a strong and powerful color that represents elegance, sophistication, and authority. It can be used as a text color or as a background color to create high contrast and make other elements pop.
+
+(<a href="pictures/colorpalette.png">Colors</a>)
+
+### Font 
+- I chose Lato as a font that is easy to read, with a friendly and inviting shape, ensuring clarity and creating a visually appealing experience for visitors
 
 
 ## Tech
@@ -199,3 +219,5 @@ I used these libraries, frameworks and databases for this project
 
 ## Testing
 [See Testing Here](test.md)
+
+[Back to Top](#table-of-contents)

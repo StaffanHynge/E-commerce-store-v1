@@ -134,6 +134,7 @@ I used Trello during my development because I am used to work on that platform f
 - For my homepage I have chosen to use images to describe what the page are for and I think the images are beautiful and fits well on my page. 
 - The event/venue/bag pages uses card attributes for the items because it packages the information well and makes the layout easy to follow on both small and large screen sizes. 
 - I have a minmal approach on my site because I want only the keywords and the information to be easy to see and understand. 
+
 ### Colour palette
 - My color is light blue/turqouise because I want to have a light visual on my site because that is what I like myself and I wanted to have a background that I personally have not seen before to make the page stand out compared to others.
 These are the colors I mainly have on my website. 
@@ -151,7 +152,7 @@ White is a classic and versatile color that represents purity, simplicity, and c
 (<a href="pictures/colorpalette.png">Colors</a>)
 
 ### Font 
-- I chose Lato as a font that is easy to read, with a friendly and inviting shape, ensuring clarity and creating a visually appealing experience for visitors
+- I chose Lato as a font that is easy to read, clean and modern, ensuring clarity and creating a visually appealing experience for the visitors.
 
 
 ## Tech

@@ -1,3 +1,31 @@
+# Table Of Content
+- [Table Of Content](#table-of-content)
+  - [Sizes](#sizes)
+    - [Home](#home)
+    - [Events](#events)
+    - [Venues](#venues)
+    - [Bag](#bag)
+    - [Empty Bag](#empty-bag)
+    - [Gallery](#gallery)
+    - [Subscribe](#subscribe)
+    - [Venues](#venues-1)
+    - [Login](#login)
+    - [Logout](#logout)
+    - [Sign Up](#sign-up)
+    - [Profile](#profile)
+    - [Create Event](#create-event)
+    - [Create Venue](#create-venue)
+    - [Edit Event](#edit-event)
+    - [Edit Venue](#edit-venue)
+    - [Delete Event](#delete-event)
+    - [Delete Venue](#delete-venue)
+    - [Event Detail](#event-detail)
+    - [Event Detail](#event-detail-1)
+    - [Venue Detail](#venue-detail)
+    - [Check Out](#check-out)
+    - [Check Out Success](#check-out-success)
+    - [404](#404)
+
 ## Sizes
 
 - Small: 320x480

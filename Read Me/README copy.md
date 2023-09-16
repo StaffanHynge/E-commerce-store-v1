@@ -1,0 +1,201 @@
+# Live Events
+
+[Here is the livelink](https://live-events-9e71b07dd75e.herokuapp.com/)
+
+Welcome to our event site, where unforgettable experiences await! Whether you're looking for a night of live music, a thrilling sports match, an immersive theater performance, or something in between, we've got you covered. Our site offers a wide variety of events to suit every taste and budget, all in one convenient location. Plus, purchasing tickets is easy and hassle-free, so you can spend less time planning and more time enjoying the excitement of the event. Join us in creating unforgettable memories at the hottest events around we can't wait to see you there!
+
+# Table of Contents
+- [Live Events](#live-events)
+- [Table of Contents](#table-of-contents)
+  - [Models](#models)
+  - [User Stories](#user-stories)
+  - [Design](#design)
+  - [Tech](#tech)
+    - [Features to make in The Future](#features-to-make-in-the-future)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+  - [Sizes](#sizes)
+  - [Marketing](#marketing)
+  - [Testing](#testing)
+
+## Models
+
+I have created 6 models for this project. This is Events and looks like this
+| | |
+| ------ | ------ |
+| user | ForeignKey |
+| name | CharField |
+| description | CharField |
+| price | DecimalField |
+| location | CharField |
+| date | DateField |
+| time | TimeField |
+| image | ResizedImagedField |
+
+This is Order and looks like this
+| | |
+| ------ | ------ |
+| order_number | Charfield |
+| full_name | CharField
+| email | EmailField |
+| phone_number | CharField |
+| date_now | DateTimeField |
+| order_total | DecimalField |
+
+This is OrderItem and looks like this
+| | |
+| ------ | ------ |
+| order | ForeignKey |
+| event | ForeignKey
+| quantity | IntegerField |
+| lineitem_total | DecimalField |
+
+This is Profile and looks like this
+| | |
+| ------ | ------ |
+| user | ForeignKey |
+| image | ResizedImageField |
+| about | CharField |
+| real_name | CharField |
+
+This is Venues and looks like this
+| | |
+| ------ | ------ |
+| user | ForeignKey |
+| address | CharField |
+| phone_number | CharField |
+| home_page | URLField |
+| social_media | URLField |
+| city | CharField |
+| country | CountryField |
+| name | CharField |
+| image | ResizedImagedField |
+
+This is Contact and looks like this
+| | |
+| ------ | ------ |
+| name | CharField |
+| image | EmailField |
+| phone_number | CharField |
+| Subject | TextField |
+
+Here is an image of the ERD Relationship that I created in DrawSQL
+
+<details>
+  <summary>Entity Relationship Diagram</summary>
+  <img src="pictures/drawSQL.png" alt="Image description">
+</details>
+
+## User Stories
+
+These are the user stories I developed at the start of the project, prioritizing their implementation using the Moscow method.
+
+| Userstories                                                                                                          | Moscow      |
+| -------------------------------------------------------------------------------------------------------------------- | ----------- |
+| As a site user, I can register an account so that I can have a personal account                                      | Must Have   |
+| As a site user, I can login and logout so that I can access my personal information                                  | Must Have   |
+| As a Site User I can have a personalized profile so that I can view my orders                                        | Could Have  |
+| As a shopper I can view a list of events so that I can select one to purchase tickets to                             | Must Have   |
+| As a shopper I can view Individual Eventdetails so that i can identify the details , time and the price of the event | Must Have   |
+| As a shopper I can view the total of my purchase so that I can avoid to spend too much money                         | Must Have   |
+| As a shopper I can view items in my bag so that I can see all the items I am going to purchase                       | Must Have   |
+| As a Shopper I can adjust the quantity in my bag so that I can make changes before I purchase                        | Should Have |
+| As a shopper I can easily enter my payment information so that I can checkout quickly                                | Must Have   |
+| As a shopper I can search for an event so that I can find a specific event that interests me                         | Should Have |
+| As an admin, I can add an event so that new events will be added to the page                                         | Must Have   |
+| As an admin, I can edit an event so that I can update the details of the event                                       | Must Have   |
+| As an admin, I can delete an event so that I can remove events that are fully booked                                 | Must Have   |
+| As an admin I can create a profile so I can see my uploaded events                                                   | Should Have |
+| As a user I can search for an event so I can discover new, upcoming events                                           | Could Have  |
+| As an admin, I can edit my profile so I can make changes to it                                                       | Should Have |
+| As a buyer I can download my order so I can save it on my computer                                                   | Must Have   |
+| As a shopper I can view a list of events so that I can see where the events are held | Must Have |
+| As an admin, I can add a venue so that new venues will be added to the page | Must Have |
+| As an admin, I can edit a venue so that I can update the details of the venue | Must Have |
+| As an admin, I can delete a venue so that I can remove venues that are closed | Must Have |
+| As a site user, I can contact the page so that I can share my ideas and questions to the site | Must Have |
+
+
+I used Trello during my development because I am used to work on that platform from earlier jobs and projects.
+
+<details>
+  <summary>Kanban on Trello</summary>
+  <img src="pictures/trello2.png" alt="Image description">
+</details>
+
+
+## Design
+
+- I have chosen to have a footer and a header available all the time because it is important for the visitor to be able to navigate easy all the time. I have chosen words on the header to easy describe what the links do and go to so the user easy can understand and icons for my socialmedia because the icons are well known and designed well.  
+- For my homepage I have chosen to use images to describe what the page are for and I think the images are beautiful and fits well on my page. 
+- The event/venue/bag pages uses card attributes for the items because it packages the information well and makes the layout easy to follow on both small and large screen sizes. 
+- I have a minmal approach on my site because I want only the keywords and the information to be easy to see and understand. 
+- My color is light blue/turqouise because I want to have a light visual on my site because that is what I like myself and I wanted to have a background that I personally have not seen before to make the page stand out compared to others.
+- I chose a font that is easy to read, with a friendly and inviting shape, ensuring clarity and creating a visually appealing experience for visitors
+
+
+## Tech
+
+I used these libraries, frameworks and databases for this project
+
+- Cloudinary
+- GitHub
+- Django AllAuth
+- Pillow
+- Psycopg2
+- PostgreSQL
+- Stripe
+- Django: receiver
+- Django: ResizedImageField
+- Django: CountryField
+- crispy_forms
+- Django: User
+- Django: post_save
+- Heroku
+- Code anywhere
+
+### Features to make in The Future
+
+- Save the users bought tickets to their profile
+- A list of the pages profiles
+- Categorys to the events
+- A list of common venues
+- A contactpage to contact the profiles
+- Email the order and tickets to the buyers
+
+## Deployment
+
+- I have the repository for the page on github.com
+- I set up all my secret keys in my env.py and put my env.py in my .gitignore to keep them hidden
+- My secret keys include django_secretKey, database_url and cloudinary_url
+- set up my debug in my env.py so that debug is true during production and false when it is live
+- I freezed all my requirements before I added, commited and pushed everything on Github
+- created an app on Heroku called Live Events
+- Configured my Config vars on Heroku which includes Database_url, Cloudinary_url, Secret_key, Stripe_pk, Stripe_sk and a port of 8000
+- Set up disablecollectstaic for my first Deployment
+- Connect Heroku to my repository on github
+- Deployed my project manually
+
+## Credits
+
+> Here are some walkthroughs and videos that inspired and helped me with this project.
+
+- [Django Recipe sharing](https://www.youtube.com/watch?v=LsU79aY79UA&list=PLXuTq6OsqZjbCSfiLNb2f1FOs8viArjWy&index=15)
+- [Boutique Ado](https://www.youtube.com/watch?v=3gQazh-EIzY&embeds_referring_euri=https%3A%2F%2Flearn.codeinstitute.net%2F&embeds_referring_origin=https%3A%2F%2Flearn.codeinstitute.net&source_ve_path=NzY3NTg&feature=emb_yt_watermark)
+
+> Here for the css and images
+
+- [Bootstrap for the css](https://getbootstrap.com)
+- [Pexels for the images](https://www.pexels.com/)
+- [Google font for the fonts](https://fonts.google.com/)
+- [Font Awesome for the icons](https://fontawesome.com/)
+- [For my favicon](https://favicon.io/favicon-converter/)
+
+## Sizes 
+[See Sizes Here](sizes.md)
+
+## Marketing
+[See Marketing Here](marketing.md)
+
+## Testing
+[See Testing Here](test.md)

@@ -9,6 +9,8 @@
     - [Links](#links)
     - [Different Types Of Headers](#different-types-of-headers)
     - [Security](#security)
+  - [Sizes](#sizes)
+  - [Marketing](#marketing)
 
 
 ## Validation
@@ -156,5 +158,11 @@
 | Delete Event | Redirected to sign in page | Works as expected |
 | Delete Venue | Redirected to sign in page | Works as expected |
 | Incorrect Url | Redirected to 404 page | Works as expected |
+
+## Sizes 
+[See Sizes Here](sizes.md)
+
+## Marketing
+[See Marketing Here](marketing.md)
 
 [Back to Top](#table-of-contents)

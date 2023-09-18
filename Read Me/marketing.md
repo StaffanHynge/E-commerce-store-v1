@@ -123,4 +123,10 @@ With these strategies the marketing will promote and inform these audiences I ha
 
 I've included links to social media profiles such as Facebook, Instagram, LinkedIn, and Twitter in the footer of my website. As many of the creators associated with the events I promote use social media as a means of self-promotion, I believe this addition contributes to the content, purpose, and marketing of my site.
 
+## Sizes 
+[See Sizes Here](sizes.md)
+
+## Testing
+[See Testing Here](test.md)
+
 [Back to Top](#table-of-contents)

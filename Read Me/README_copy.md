@@ -186,16 +186,36 @@ I used these libraries, frameworks and databases for this project
 
 ## Deployment
 
-- I have the repository for the page on github.com
-- I set up all my secret keys in my env.py and put my env.py in my .gitignore to keep them hidden
-- My secret keys include django_secretKey, database_url and cloudinary_url
-- set up my debug in my env.py so that debug is true during production and false when it is live
-- I freezed all my requirements before I added, commited and pushed everything on Github
-- created an app on Heroku called Live Events
-- Configured my Config vars on Heroku which includes Database_url, Cloudinary_url, Secret_key, Stripe_pk, Stripe_sk and a port of 8000
-- Set up disablecollectstaic for my first Deployment
-- Connect Heroku to my repository on github
-- Deployed my project manually
+Before I deployed my project to Heroku I need to make some fixes. 
+
+- In settings.py delete the database created and replace it with:
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
+- install webserver: pip3 install gunicorn
+- run pip3 freeze > requirements.txt
+- Create Procfile and add code: web: gunicorn live.wsgi:application
+- Add the hostname of the Heroku app to ALLOWED_HOSTS in settings.py
+
+1. I have the repository for the page on github.com
+2.  I set up all my secret keys in my env.py and put my env.py in my .gitignore to keep them hidden
+3.  My secret keys include django_secretKey, database_url and cloudinary_url
+4. set up my debug in my env.py so that debug is true during production and false when it is live
+5. I freezed all my requirements before I added, commited and pushed everything on Github
+6. Created an app on Heroku called Live Events
+7. Configured my Config vars on Heroku which includes Database_url, Cloudinary_url, Secret_key, Stripe_pk, Stripe_sk and a port of 8000
+8. Set up disablecollectstaic for my first Deployment
+9.  Connect Heroku to my repository on github
+10. Deployed my project manually
 
 ## Credits
 

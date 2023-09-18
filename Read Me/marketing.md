@@ -2,6 +2,8 @@
 - [Table Of Contents](#table-of-contents)
   - [SEO](#seo)
   - [Keywords](#keywords)
+    - [Robots.txt and Sitemap](#robotstxt-and-sitemap)
+    - [Content](#content)
     - [Business Model](#business-model)
     - [Marketing](#marketing)
       - [Avatar 1 Young Professional/Student](#avatar-1-young-professionalstudent)
@@ -10,6 +12,8 @@
     - [Summary](#summary)
     - [Facebook Page](#facebook-page)
     - [Subscribe](#subscribe)
+  - [Sizes](#sizes)
+  - [Testing](#testing)
 
 
 ## SEO
@@ -53,6 +57,19 @@ This is how I implemented some of these keywords on my site.
 </details>
 
 It's important to note that since the content on my site will vary depending on the events being showcased, SEO is an ongoing and continuous effort that requires responsiveness to adapting content to match what users are searching for.
+
+### Robots.txt and Sitemap
+Sitemap and robots.txt files have been added to the site's root to help with SEO.
+
+### Content
+On my Homepage I have three different photos that are shown to highligh different events I have on my site. 
+Under the images are some sentences that highlights and promotes the joy and quality you can have on those events. 
+Here is an example: 
+Fun for the whole family! Our family events section offers a variety of activities and events that parents and kids can enjoy together. From outdoor adventures to indoor play areas, you'll find something for every age and interest.
+
+These are my semantic tags: 
+Community events, Events near me, Nightlife events, Family events, Upcoming events,
+Activities, Music events, Local Show, Local band, Sports events
 
 ### Business Model
 My business model is B2C(business to customer)

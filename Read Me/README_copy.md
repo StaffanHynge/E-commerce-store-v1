@@ -19,7 +19,7 @@ Due to the README file previously only showing the first 200 lines of the docume
   - [Deployment](#deployment)
   - [Credits](#credits)
   - [Sizes](#sizes)
-  - [Marketing](#marketing)
+  - [Marketing \& SEO](#marketing--seo)
   - [Testing](#testing)
 
 ## Models
@@ -235,7 +235,7 @@ else:
 ## Sizes 
 [See Sizes Here](sizes.md)
 
-## Marketing
+## Marketing & SEO
 [See Marketing Here](marketing.md)
 
 ## Testing

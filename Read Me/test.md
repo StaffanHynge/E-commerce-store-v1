@@ -6,9 +6,9 @@
     - [HTML](#html)
     - [Lighthouse](#lighthouse)
   - [Test Of All Features](#test-of-all-features)
+    - [Security](#security)
     - [Links](#links)
     - [Different Types Of Headers](#different-types-of-headers)
-    - [Security](#security)
   - [Sizes](#sizes)
   - [Marketing](#marketing)
 
@@ -101,41 +101,52 @@
 
 ## Test Of All Features
 
-| App| Feature |Result |
-| ------ | ------ | ------ |
-| Accounts | Log In | Works as expected |
-| Accounts | Log Out | Works as expected |
-| Accounts | Sign Up | Works as expected |
-| Accounts | Log in | Works as expected |
-| Events | Create Event | Works as expected |
-| Events | Edit Event | Works as expected |
-| Events | Delete Event | Works as expected |
-| Profile | Edit Profile | Works as expected |
-| Payment | Make A Payment | Works as expected |
-| Payment | Download A Ticket | Works as expected |
-| Venues | Create Venue | Works as expected |
-| Venues | Edit Venue | Works as expected |
-| Venues | Delete Venue | Works as expected |
-| Contact | Contact Us | Works as expected |
+| App| Feature | Action | Expectations | Result |
+| ------ | ------ | ------ | ------ | ------ |
+| Accounts | Log In | User enters login credentials | User gets signed in and redirected to the homepage | Works as expected |
+| Accounts | Log Out | User press the logout button | User gets signed out and redirected to the homepage |Works as expected |
+| Accounts | Sign Up | User signs up and creates a user | User gets signed in, gets a profile and redirected to the homepage| Works as expected |
+| Events | Create Event | User press create button and fills in the form | A new event will be created and added to the eventlist | Works as expected |
+| Events | Edit Event | User press Edit button and fills in the form | The event will be edited and appears on the eventlist | Works as expected |
+| Events | Delete Event | User press delete button | The event will be deleted | Works as expected |
+| Profile | Edit Profile | User press Edit button and fills in the form | The Profile will be edited and appears on the profile page | Works as expected |
+| Payment | Make A Payment | User enthers their payment info and presses pay | A payment will be transferred | Works as expected |
+| Payment | Download A Ticket | User press Download button| A ticket will be downloaded | Works as expected |
+| Venues | Create Venue | User press create button and fills in the form | A new venue will be created and added to the venuelist | Works as expected |
+| Venues | Edit Venue | User press Edit button and fills in the form | The venue will be edited and appears on the venuelist | Works as expected |
+| Venues | Delete Venue | User press delete button | The venue will be deleted | Works as expected |
+| Contact | Contact Us | User fills in the form and press contact button | A message will appear form the user on admin page | Works as expected |
 
+### Security
+> You can't use CRUD functionality when you are signed out.
+> When you write something that is not a correct url you get redirected to a 404 page
 
+| Test | Try |Action | Result |
+| ------ | ------ | ------ | ------ |
+| Create Event | Not a superuser tries to create an event via url | Redirected to sign in page | Works as expected |
+| Create Venue | Not a superuser tries to create a venue via url | Redirected to sign in page | Works as expected |
+| Edit Event | Not a superuser tries to edit an event or edit another users event via url | Redirected to sign in page | Works as expected |
+| Edit Venue | Not a superuser tries to edit a venue or edit another users venue via url | Redirected to sign in page | Works as expected |
+| Delete Event | Not a superuser tries to delete an event or delete another users event via url | Works as expected |
+| Delete Venue | Not a superuser tries to delete a venue or delete another users venue via url | Redirected to sign in page | Works as expected |
+| Incorrect Url | A user tries to write an incorrect url |Redirected to 404 page | Works as expected |
 ### Links
 
-| Type| Page |Result |
-| ------ | ------ | ------ |
-| External | Linkedin | Works as expected |
-| External | Facebook | Works as expected |
-| External | Twitter/X | Works as expected |
-| External | Instagram | Works as expected |
-| Navigation | Home | Works as expected |
-| Navigation | Events | Works as expected |
-| Navigation | Bag | Works as expected |
-| Navigation | Subscribe | Works as expected |
-| Navigation | Venues | Works as expected |
-| Navigation | Contact Us | Works as expected |
-| Navigation | Profile | Works as expected |
-| Navigation | New Event | Works as expected |
-| Navigation | New Venue | Works as expected |
+| Type| Page | Expectations | Result |
+| ------ | ------ | ------ | ------ |
+| External | Linkedin | Gets redirected to Linkedin | Works as expected |
+| External | Facebook | Gets redirected to Facebook | Works as expected |
+| External | Twitter/X | Gets redirected to Twitter/X |Works as expected |
+| External | Instagram | Gets redirected to Instagram | Works as expected |
+| Navigation | Home | Gets redirected to Homepage | Works as expected |
+| Navigation | Events | Gets redirected to Eventspage | Works as expected |
+| Navigation | Bag | Gets redirected to Bagpage | Works as expected |
+| Navigation | Subscribe | Gets redirected to Subscribepage | Works as expected |
+| Navigation | Venues | Gets redirected to Venuespage | Works as expected |
+| Navigation | Contact Us | Gets redirected to Contactpage | Works as expected |
+| Navigation | Profile | Gets redirected to Profilepage | Works as expected |
+| Navigation | New Event | Gets redirected to Create Event page| Works as expected |
+| Navigation | New Venue| Gets redirected to Create Venue page | Works as expected |
 
 ### Different Types Of Headers 
 
@@ -145,19 +156,7 @@
 | Signed In | Works as expected | (<a href="pictures/header_login.png">Image</a>) |
 | Signed Out | Works as expected | (<a href="pictures/header_logout.png">Image</a>) |
 
-### Security
-> You can't use CRUD functionality when you are signed out.
-> When you write something that is not a correct url you get redirected to a 404 page
 
-| Test | Action | Result |
-| ------ | ------ | ------ |
-| Create Event | Redirected to sign in page | Works as expected |
-| Create Venue | Redirected to sign in page | Works as expected |
-| Edit Event | Redirected to sign in page | Works as expected |
-| Edit Venue | Redirected to sign in page | Works as expected |
-| Delete Event | Redirected to sign in page | Works as expected |
-| Delete Venue | Redirected to sign in page | Works as expected |
-| Incorrect Url | Redirected to 404 page | Works as expected |
 
 ## Sizes 
 [See Sizes Here](sizes.md)

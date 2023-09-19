@@ -71,6 +71,19 @@ These are my semantic tags:
 Community events, Events near me, Nightlife events, Family events, Upcoming events,
 Activities, Music events, Local Show, Local band, Sports events
 
+| Words |
+| ------ |
+| Community events |
+| Events near me |
+| Nightlife events |
+| Family events |
+| Upcoming events |
+| Activities |
+| Music events |
+| Local Show |
+| Local Band |
+| Sports Event |
+
 ### Business Model
 My business model is B2C(business to customer)
 

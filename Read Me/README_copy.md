@@ -17,6 +17,8 @@ Due to the README file previously only showing the first 200 lines of the docume
   - [Tech](#tech)
     - [Features to make in The Future](#features-to-make-in-the-future)
   - [Deployment](#deployment)
+    - [Set up Workspace](#set-up-workspace)
+    - [Create an Heroku app](#create-an-heroku-app)
   - [Credits](#credits)
   - [Sizes](#sizes)
   - [Marketing \& SEO](#marketing--seo)
@@ -244,6 +246,40 @@ import os
 14. Deploy on Heroku. 
 
 For the final deployment remove disablecollectstatic and deploy again.
+
+### Set up Workspace
+1. Install gunicorn:
+    * ```pip install gunicorn```
+2. 1. Install supporting libraries:
+    * ```pip install dj_database_url```
+    * ```pip install psycopg2-binary```
+    * ```pip install dj3-cloudinary-storage```
+3. Set up all my secret keys in my env.py and put my env.py in my .gitignore to keep them hidden.
+    The Secret keys are:
+    * ``` os.environ["SECRET_KEY"] = " Your Secret Key "```
+    * ```os.environ["CLOUDINARY_URL"] = "cloudinary://cloudinary_url"```
+    * ```os.environ["DATABASE_URL"] = postgres://database_url```
+    * ```os.environ["DEVELOPMENT"] = "True"```
+4. Create a Procfile: 
+    *```web: gunicorn live.wsgi:application```
+5.  Freeze requirements to create a local file so that heroku know which packages to install
+     *```pip3 freeze > requirements.txt```
+
+### Create an Heroku app
+1. Create a new Heroku app:
+    * Click "New" in the top right-hand corner of the landing page, then click "Create new app."
+2. Give the app a unique name:
+    * Will form part of the URL (in the case of this project, I called the Heroku app jobs-a-gooden)
+3. Select the nearest location:
+    * For me, this was Europe.
+4. Configure Config vars on Heroku
+   * Database_url: Your databaseurl
+   * Cloudinary_url: Your Cloudinary url
+   * Secret_key: Your Secret Key
+   * Stripe_pk: Stripes public key
+   * Stripe_pk: Stripes secret key
+   * Port: 8000
+   * disablecollectstatic: 8000
 
 ## Credits
 

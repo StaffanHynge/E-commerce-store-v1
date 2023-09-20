@@ -10,7 +10,7 @@
     - [Links](#links)
     - [Different Types Of Headers](#different-types-of-headers)
   - [Sizes](#sizes)
-  - [Marketing](#marketing)
+  - [Marketing \& SEO](#marketing--seo)
 
 
 ## Validation
@@ -161,7 +161,7 @@
 ## Sizes 
 [See Sizes Here](sizes.md)
 
-## Marketing
+## Marketing & SEO
 [See Marketing Here](marketing.md)
 
 [Back to Top](#table-of-contents)

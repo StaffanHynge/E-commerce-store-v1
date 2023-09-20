@@ -19,6 +19,8 @@ Due to the README file previously only showing the first 200 lines of the docume
   - [Deployment](#deployment)
     - [Set up Workspace](#set-up-workspace)
     - [Create an Heroku app](#create-an-heroku-app)
+    - [Set up Settings.py](#set-up-settingspy)
+    - [Final Deployment](#final-deployment)
   - [Credits](#credits)
   - [Sizes](#sizes)
   - [Marketing \& SEO](#marketing--seo)
@@ -250,7 +252,7 @@ For the final deployment remove disablecollectstatic and deploy again.
 ### Set up Workspace
 1. Install gunicorn:
     * ```pip install gunicorn```
-2. 1. Install supporting libraries:
+2.  Install supporting libraries:
     * ```pip install dj_database_url```
     * ```pip install psycopg2-binary```
     * ```pip install dj3-cloudinary-storage```
@@ -269,7 +271,7 @@ For the final deployment remove disablecollectstatic and deploy again.
 1. Create a new Heroku app:
     * Click "New" in the top right-hand corner of the landing page, then click "Create new app."
 2. Give the app a unique name:
-    * Will form part of the URL (in the case of this project, I called the Heroku app jobs-a-gooden)
+    * Will form part of the URL
 3. Select the nearest location:
     * For me, this was Europe.
 4. Configure Config vars on Heroku
@@ -279,7 +281,58 @@ For the final deployment remove disablecollectstatic and deploy again.
    * Stripe_pk: Stripes public key
    * Stripe_pk: Stripes secret key
    * Port: 8000
-   * disablecollectstatic: 8000
+   * disablecollectstatic: 1
+
+### Set up Settings.py
+1. At the top of your settings.py 
+```python
+import os
+import dj_database_url
+from pathlib import Path
+
+if os.path.exists('env.py'):
+    import env
+
+SECRET_KEY = os.environ.get('SECRET_KEY')
+DEBUG = 'DEVELOPMENT' in os.environ
+```
+2. Add your heroku app name in allowed hosts
+ ```python
+ ALLOWED_HOSTS = ['project_name.herokuapp.com']
+ ```
+ 3. Add a conditional in setting.py DATABASES section by replacing it with the following snippet to link up the Heroku Postgres server when in production and SQLite3 when developing locally:
+```python
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
+```
+4. Tell Django to where to store media and static files by placing this snippet under the comments indicated below:
+```python
+STATIC_URL = '/static/'
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+```
+
+### Final Deployment
+1. Make a final commit and push the code to the GitHub Repository.
+*```git add . ```
+*```git commit -m "final deployment"```
+*```git push```
+2. Remove disablecollectstacic from config vars on Heroku
+3. Press Deploy
 
 ## Credits
 

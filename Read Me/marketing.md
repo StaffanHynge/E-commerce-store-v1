@@ -1,17 +1,18 @@
 # Table Of Contents
 - [Table Of Contents](#table-of-contents)
   - [SEO](#seo)
-  - [Keywords](#keywords)
+    - [Keywords](#keywords)
     - [Robots.txt and Sitemap](#robotstxt-and-sitemap)
     - [Content](#content)
-    - [Business Model](#business-model)
-    - [Marketing](#marketing)
+    - [Surface](#surface)
+  - [Business Model](#business-model)
+  - [Marketing](#marketing)
       - [Avatar 1 Young Professional/Student](#avatar-1-young-professionalstudent)
       - [Avatar 2 Wife with 2 kids](#avatar-2-wife-with-2-kids)
       - [Avatar 3 Music Enthusiast](#avatar-3-music-enthusiast)
     - [Summary](#summary)
     - [Facebook Page](#facebook-page)
-    - [Subscribe](#subscribe)
+  - [Subscribe](#subscribe)
   - [Sizes](#sizes)
   - [Testing](#testing)
 
@@ -32,7 +33,7 @@ The purpose of my site is to provide small businesses with an easy way to publis
   <img src="pictures/family.png" alt="Image description">
 </details>
 
-## Keywords
+### Keywords
 
 I decided to use these keywords because they gave me good results and are related to what I want to contribute with on this site.
 
@@ -58,18 +59,7 @@ This is how I implemented some of these keywords on my site.
 
 It's important to note that since the content on my site will vary depending on the events being showcased, SEO is an ongoing and continuous effort that requires responsiveness to adapting content to match what users are searching for.
 
-### Robots.txt and Sitemap
-Sitemap and robots.txt files have been added to the site's root to help with SEO.
-
-### Content
-On my Homepage I have three different photos that are shown to highligh different events I have on my site. 
-Under the images are some sentences that highlights and promotes the joy and quality you can have on those events. 
-Here is an example: 
-Fun for the whole family! Our family events section offers a variety of activities and events that parents and kids can enjoy together. From outdoor adventures to indoor play areas, you'll find something for every age and interest.
-
-These are my semantic tags: 
-Community events, Events near me, Nightlife events, Family events, Upcoming events,
-Activities, Music events, Local Show, Local band, Sports events
+These are my meta tags: 
 
 | Words |
 | ------ |
@@ -84,11 +74,26 @@ Activities, Music events, Local Show, Local band, Sports events
 | Local Band |
 | Sports Event |
 
-### Business Model
+### Robots.txt and Sitemap
+Sitemap and robots.txt files have been added to the site's root to help with SEO.
+
+### Content
+On my Homepage I have three different photos that are shown to highlight different events I have on my site. 
+Under the images are some sentences that highlights and promotes the joy and quality you can have on those events. 
+Here is an example: 
+Fun for the whole family! Our family events section offers a variety of activities and events that parents and kids can enjoy together. From outdoor adventures to indoor play areas, you'll find something for every age and interest.
+
+
+### Surface
+The layout of my page is simple and clean. The homepage gives the information for the site and are displayed with images. 
+To promote the events and content I also have a gallery page which gives the user information about our events.
+
+
+## Business Model
 My business model is B2C(business to customer)
 
-### Marketing
-I created three different avatars so I could learn to know some of my target auddiences and approach them in a good way
+## Marketing
+I created three different avatars so I could learn to know some of my target audiences and approach them in a good way
 
 #### Avatar 1 Young Professional/Student
 
@@ -143,7 +148,7 @@ With these strategies the marketing will promote and inform these audiences I ha
   <img src="pictures/facebook3.png" alt="Image description">
 </details>
 
-### Subscribe
+## Subscribe
 
 <details>
   <summary>Subscribe</summary>

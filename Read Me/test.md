@@ -6,9 +6,9 @@
     - [HTML](#html)
     - [Lighthouse](#lighthouse)
   - [Test Of All Features](#test-of-all-features)
-    - [Security](#security)
-    - [Links](#links)
-    - [Different Types Of Headers](#different-types-of-headers)
+  - [Security](#security)
+  - [Links](#links)
+  - [Different Types Of Headers](#different-types-of-headers)
   - [Sizes](#sizes)
   - [Marketing \& SEO](#marketing--seo)
 
@@ -117,7 +117,7 @@
 | Venues | Delete Venue | User press delete button | The venue will be deleted | Works as expected |
 | Contact | Contact Us | User fills in the form and press contact button | A message will appear form the user on admin page | Works as expected |
 
-### Security
+## Security
 > You can't use CRUD functionality when you are signed out.
 > When you write something that is not a correct url you get redirected to a 404 page
 
@@ -130,7 +130,7 @@
 | Delete Event | Not a superuser tries to delete an event or delete another users event via url | Works as expected |
 | Delete Venue | Not a superuser tries to delete a venue or delete another users venue via url | Redirected to sign in page | Works as expected |
 | Incorrect Url | A user tries to write an incorrect url |Redirected to 404 page | Works as expected |
-### Links
+## Links
 
 | Type| Page | Expectations | Result |
 | ------ | ------ | ------ | ------ |
@@ -148,13 +148,15 @@
 | Navigation | New Event | Gets redirected to Create Event page| Works as expected |
 | Navigation | New Venue| Gets redirected to Create Venue page | Works as expected |
 
-### Different Types Of Headers 
+## Different Types Of Headers 
 
-| Account| Result | Image |
-| ------ | ------ | ------ |
-| Superuser | Works as expected | (<a href="pictures/header_super.png">Image</a>) |
-| Signed In | Works as expected | (<a href="pictures/header_login.png">Image</a>) |
-| Signed Out | Works as expected | (<a href="pictures/header_logout.png">Image</a>) |
+| Account| Expectations |Result | Image |
+| ------ | ------ | ------ | ------ |
+| Signed Out | Gives the user events, bag, subscribe, venues and login links | Works as expected | (<a href="pictures/header_logout.png">Image</a>) |
+| Signed In | Same links as a signed out user with the adition of a contact and account link | Works as expected | (<a href="pictures/header_login.png">Image</a>) |
+| Superuser | Same links as a signed in user with the adition of a create link | Works as expected | (<a href="pictures/header_super.png">Image</a>) |
+
+
 
 
 

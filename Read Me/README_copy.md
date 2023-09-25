@@ -190,65 +190,6 @@ I used these libraries, frameworks and databases for this project
 
 ## Deployment
 
-Before I deployed my project to Heroku I need to make some fixes. 
-
-- In settings.py delete the database created and replace it with:
-if 'DATABASE_URL' in os.environ:
-    DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-    }
-else:
-
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        }
-    }
-- install webserver: pip3 install gunicorn
-- run pip3 freeze > requirements.txt
-- Create Procfile and add code: web: gunicorn live.wsgi:application
-- Add the hostname of the Heroku app to ALLOWED_HOSTS in settings.py
-
-1. I have the repository for the page on github.com
-2.  I set up all my secret keys in my env.py and put my env.py in my .gitignore to keep them hidden
-3.  My secret keys include django_secretKey, database_url and cloudinary_url
-4. set up my debug in my env.py so that debug is true during production and false when it is live
-5. I freezed all my requirements before I added, commited and pushed everything on Github
-6. Created an app on Heroku called Live Events
-7. Configured my Config vars on Heroku which includes Database_url, Cloudinary_url, Secret_key, Stripe_pk, Stripe_sk and a port of 8000
-8. Set up disablecollectstaic for my first Deployment
-9.  Connect Heroku to my repository on github
-10. Deployed my project manually
-
-New Deployment. 
-1. Create an app on Heroku
-2. Install this on the terminal: pip install dj_database_url psycopg2
-3.  Put these under path in settings.py 
-import os
- import dj_database_url
- if os.path.isfile('env.py'):
-     import env
-4. Set up all my secret keys in my env.py and put my env.py in my .gitignore to keep them hidden. 
-    The Secret keys are: django_secretKey, database_url and cloudinary_url
-5. Set up debug in env.py so that debug is true during production and false when it is live
-6. Add Environment Vars in settings.py
-    SECRET_KEY = os.environ.get(’SECRET_KEY')
-    DATABASES = {
-     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
- }
-7. install webserver: pip3 install gunicorn
-8. Create Procfile and add this code in the procfile: 
-    web: gunicorn live.wsgi:application
-9. Add the hostname of the Heroku app to ALLOWED_HOSTS in settings.py
-10. run pip3 freeze > requirements.txt to create a local file so that heroku know which packages to install
-11. Configured my Config vars on Heroku which includes Database_url, Cloudinary_url, Secret_key, Stripe_pk, Stripe_sk and a port of 8000
-12. Set up disablecollectstatic to 1 for my first Deployment
-13. Push all changes to github. git add . / git commit -m"initial commit" / git push 
-14. Deploy on Heroku. 
-
-For the final deployment remove disablecollectstatic and deploy again.
-
 ### Set up Workspace
 1. Install gunicorn:
     * ```pip install gunicorn```

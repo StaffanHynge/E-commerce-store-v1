@@ -3,6 +3,7 @@
   - [SEO](#seo)
     - [Keywords](#keywords)
     - [Robots.txt and Sitemap](#robotstxt-and-sitemap)
+    - [Page Title](#page-title)
     - [Content](#content)
     - [Surface](#surface)
   - [Business Model](#business-model)
@@ -76,6 +77,9 @@ These are my meta tags:
 
 ### Robots.txt and Sitemap
 Sitemap and robots.txt files have been added to the site's root to help with SEO.
+
+### Page Title
+Each page shows an extra title after the store name to assist help with SEO.
 
 ### Content
 On my Homepage I have three different photos that are shown to highlight different events I have on my site. 

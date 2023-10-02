@@ -130,6 +130,7 @@ I used Trello during my development because I am used to work on that platform f
   <summary>Kanban on Trello</summary>
   <img src="pictures/trello2.png" alt="Image description">
 </details>
+(<a href="https://trello.com/invite/b/CFFFopJa/ATTI4453f69c2f3d785a622b6f82ba2ae07fCA1C479D/live-events">Link to Trello</a>)
 
 
 ## Design
@@ -163,21 +164,19 @@ White is a classic and versatile color that represents purity, simplicity, and c
 
 I used these libraries, frameworks and databases for this project
 
-- Cloudinary
-- GitHub
-- Django AllAuth
-- Pillow
-- Psycopg2
-- PostgreSQL
-- Stripe
-- Django: receiver
-- Django: ResizedImageField
-- Django: CountryField
-- crispy_forms
-- Django: User
-- Django: post_save
-- Heroku
-- Code anywhere
+- Cloudinary - To host images
+- GitHub - To store my repository
+- Django AllAuth - Authentication library for user authentication
+- Pillow - To process images
+- Psycopg2 - To connect to a PostgreSQL database 
+- PostgreSQL - For my database
+- Stripe - To handle payments
+- Django: ResizedImageField - To resize images
+- Django: CountryField - To select country
+- crispy_forms - To render forms
+- Django: User - To represent a user account
+- Heroku - To deploy the page and make it publicly available
+- Code anywhere - As my workspace
 
 ### Features to make in The Future
 

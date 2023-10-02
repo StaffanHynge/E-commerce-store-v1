@@ -1,5 +1,6 @@
 # Table Of Contents
 - [Table Of Contents](#table-of-contents)
+  - [Wireframes](#wireframes)
   - [Sizes](#sizes)
     - [Home](#home)
     - [Events](#events)
@@ -27,6 +28,18 @@
     - [404](#404)
   - [Marketing](#marketing)
   - [Testing](#testing)
+
+## Wireframes
+| Page | Image |
+| ------ | ------ |
+| Home | (<a href="pictures/homewire.png">Home</a>) |
+| Events | (<a href="pictures/eventswire.png">Events</a>) |
+| Venues | (<a href="pictures/venuewire.png">Venues</a>) |
+| Event Details | (<a href="pictures/eventdetailswire.png">Event Details</a>) |
+| Venue Details | (<a href="pictures/venuedetailswire.png">Venue Details</a>) |
+| Bag | (<a href="pictures/bagwire.png">Bag</a>) |
+| Checkout | (<a href="pictures/checkoutwire.png">Checkout</a>) |
+| Gallery | (<a href="pictures/gallerywire.png">Gallery</a>) |
 
 ## Sizes
 
@@ -231,6 +244,7 @@
 | Medium | Works as expected | (<a href="pictures/404_medium.png">Medium</a>)
 | Large | Works as expected | (<a href="pictures/404_large.png">Large</a>)
 | X-large | Works as expected | (<a href="pictures/404_xlarge.png">Xlarge</a>)
+
 
 ## Marketing
 [See Marketing Here](marketing.md)

@@ -6,6 +6,8 @@ Welcome to our event site, where unforgettable experiences await! Whether you're
 
 Due to the README file previously only showing the first 200 lines of the document, I have broken the larger sections out into their own files, for which I have provided links in the Table of Contents.
 
+![Live Events](pictures/responsivemockup.png)
+
 # Table of Contents
 - [Live Events](#live-events)
 - [Table of Contents](#table-of-contents)

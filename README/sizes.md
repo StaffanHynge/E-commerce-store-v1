@@ -1,6 +1,7 @@
 # Table Of Contents
 - [Table Of Contents](#table-of-contents)
   - [Wireframes](#wireframes)
+  - [Responsiveness](#responsiveness)
   - [Sizes](#sizes)
     - [Home](#home)
     - [Events](#events)
@@ -41,6 +42,16 @@
 | Checkout | (<a href="pictures/checkoutwire.png">Checkout</a>) |
 | Gallery | (<a href="pictures/gallerywire.png">Gallery</a>) |
 
+## Responsiveness
+Due to a problem for me with the amiresponsive website I used a different website called (<a href="https://www.websiteplanet.com/webtools/responsive-checker/">Website Planet</a>)
+I have used to used my homepage to show how it looks on these devices.
+
+| Device | Image |
+| ------ | ------ |
+| Iphone | (<a href="pictures/iphone.jpg">Iphone</a>) |
+| Ipad Pro | (<a href="pictures/ipad.png">Ipad</a>) |
+| Laptop | (<a href="pictures/laptop.jpg">Laptop</a>) |
+| Ipad Pro | (<a href="pictures/desktop.jpg">Desktop</a>) |
 ## Sizes
 
 - Small: 320x480
